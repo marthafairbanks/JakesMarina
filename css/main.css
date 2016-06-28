@@ -1,3 +1,10 @@
+.adminLogin {
+  width: 25%;
+  margin: auto;
+  margin-top: 100px; }
+  .adminLogin input {
+    margin-bottom: 10px; }
+
 .bx-wrapper .bx-pager {
   bottom: -95px; }
 

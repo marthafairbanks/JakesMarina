@@ -7,37 +7,35 @@
 	padding: 25px; 
 	position:relative; 
 	width:350px;
-}
 
-#circleslider3 .viewport{ 
-	height:350px; 
-	position: relative; 
-	margin:0 auto; 
-	overflow:hidden;
-	width:350px; 
-}
+	.viewport{ 
+		height:350px; 
+		position: relative; 
+		margin:0 auto; 
+		overflow:hidden;
+		width:350px; 
+	}
 
-#circleslider3 .overview { 
-	background-color: #efefef; 
-	position: absolute; 
-	width: 798px; 
-	list-style: none; 
-	margin: 0; 
-	padding: 0;  
-	left: 0; 
-	top: 0; 
-}
+		.overview { 
+			background-color: #efefef; 
+			position: absolute; 
+			width: 798px; 
+			list-style: none; 
+			margin: 0; 
+			padding: 0;  
+			left: 0; 
+			top: 0; 
 
-#circleslider3 .overview li { 
-	height:350px; 
-	width:350px; 
-	margin: 0 20px 0 0; 
-	float: left; 
-	position: relative;
-	//display:none;
-}
+				li { 
+					height:350px; 
+					width:350px; 
+					margin: 0 20px 0 0; 
+					float: left; 
+					position: relative;
+				}
+			}
 
-#circleslider3 .overlay {
+ .overlay {
 	background:url(http://baijs.com/tinycircleslider/images/bg-rotatescroll2.png) no-repeat 0 0; 
 	pointer-events: none; 
 	position: absolute; 
@@ -47,7 +45,7 @@
 	width:400px;
 }
 
-#circleslider3 .thumb { 
+ .thumb { 
 	background:url(http://baijs.com/tinycircleslider/images/bg-thumb.png) no-repeat 50% 50%; 
 	position: absolute; 
 	top: -3px; 
@@ -58,7 +56,7 @@
 	height: 100px;
 }
 
-#circleslider3 .dot { 
+ .dot { 
 	cursor: pointer; 
 	background:url(http://baijs.com/tinycircleslider/images/bg-dot3.png) no-repeat 0 0; 
 	height: 22px; 
@@ -73,6 +71,7 @@
 	z-index: 100; 
 }
 
-#circleslider3 .dot span { 
+.dot span { 
 	cursor: pointer;
+}
 }

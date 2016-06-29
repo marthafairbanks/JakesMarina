@@ -5,7 +5,7 @@ $( document ).ready(function() {
 		event.preventDefault();
 
 		var title = $(this).find('input.form-control.blogTitle').val();
-		var description = $(this).find('input.form-control.blogDescription').val();
+		var description = $(this).find('textarea.form-control.blogDescription').val();
 
 		var data = {
 			title: title,
@@ -14,24 +14,20 @@ $( document ).ready(function() {
 
 		console.log(data);
 
+		var token = JSON.parse(localStorage.token);
+		token = token.token,
+
 		$.ajax({url: "https://tiyagencyweek.herokuapp.com/blogs/create",
 	        type:"POST",
 	        data:data,
-	        apikey: 'M44ASR0FL0PJH3OLJ5RC',
-	        success: function(result) {
-	        	alert("I worked...maybe?");
-	
-	    	}
-		});
-
-		$.ajax({url: "https://tiyagencyweek.herokuapp.com/blogs/create",
-	        type:"GET",
-	        apikey: 'M44ASR0FL0PJH3OLJ5RC',
+	       	headers:{
+                'X_CSRF_TOKEN': token,
+            },
 	        success: function(result) {
 	        	console.log(result);
 	
 	    	}
-		});
+		})
 
 	});
 

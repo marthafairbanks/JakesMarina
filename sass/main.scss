@@ -2,6 +2,7 @@ $nav-font:'Cormorant Unicase', serif;
 $bro:#FE5301;
 $light-orange:#FFC996;
 $light-gray:#DCDCDC;
+$green:#97FFD4;
 
 @import 'products';
 
@@ -10,12 +11,12 @@ $light-gray:#DCDCDC;
 @import 'admin';
 
 .navCol {
-	background-color:$light-gray;
+	background-color:darken($light-gray,20)
 }
 
 ul {
 	display:inline-block;
-	margin-top:150px;
+	margin-top:50px;
 }
 
 li.navList {
@@ -46,6 +47,7 @@ img.logo {
 	padding-top:20px;
 	padding-bottom:20px;
 	padding-right:9px;
+	width:133px;
 }
 
 img.boatImgs {
@@ -103,8 +105,9 @@ img.boatImgs {
 			}
 
 				.thumb { 
-					background:url(http://baijs.com/tinycircleslider/images/bg-thumb.png) no-repeat 50% 50%; 
+					background:url(http://www.select-salmon.gr/userfiles/image/compass.png) no-repeat 50% 50%; 
 					position: absolute; 
+					background-size: 120px;
 					top: -3px; 
 					cursor: pointer; 
 					left: 137px; 

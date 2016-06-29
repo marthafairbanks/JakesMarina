@@ -29,11 +29,11 @@ h3 {
   color: red; }
 
 .navCol {
-  background-color: #DCDCDC; }
+  background-color: darkgray; }
 
 ul {
   display: inline-block;
-  margin-top: 150px; }
+  margin-top: 50px; }
 
 li.navList {
   display: inline-block;
@@ -56,7 +56,8 @@ h1 {
 img.logo {
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-right: 9px; }
+  padding-right: 9px;
+  width: 133px; }
 
 img.boatImgs {
   margin: 0 auto;
@@ -103,8 +104,9 @@ img.boatImgs {
     height: 400px;
     width: 400px; }
   #circleslider3 .thumb {
-    background: url(http://baijs.com/tinycircleslider/images/bg-thumb.png) no-repeat 50% 50%;
+    background: url(http://www.select-salmon.gr/userfiles/image/compass.png) no-repeat 50% 50%;
     position: absolute;
+    background-size: 120px;
     top: -3px;
     cursor: pointer;
     left: 137px;

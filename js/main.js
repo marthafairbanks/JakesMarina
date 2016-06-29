@@ -7,7 +7,7 @@ $( document ).ready(function() {
   		var marina = results.boats;
 
 	marina.forEach(function(marinaInfo){
-  		var boatName = marinaInfo.name;
+  	
  		var boatPic = marinaInfo.picture;
 
   		$('.overview').append('<li><img class="boatImgs" src="'+boatPic+'" /></li>');

@@ -1,6 +1,13 @@
 .sliderCol {
   margin: 40px; }
 
+img.boatImgs {
+  margin: 0 auto;
+  display: block;
+  width: 375px;
+  height: 340px;
+  margin-top: 4px; }
+
 #circleslider3 {
   height: 350px;
   padding: 25px;
@@ -10,7 +17,6 @@
     height: 350px;
     position: relative;
     margin: 0 auto;
-    overflow: hidden;
     width: 350px; }
   #circleslider3 .overview {
     background-color: #efefef;
@@ -56,6 +62,8 @@
     position: absolute;
     left: 155px;
     top: 3px;
-    z-index: 100; }
-  #circleslider3 .dot span {
-    cursor: pointer; }
+    z-index: 100;
+    margin-left: 25px;
+    margin-top: 25px; }
+    #circleslider3 .dot span {
+      cursor: pointer; }

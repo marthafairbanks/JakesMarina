@@ -15,7 +15,7 @@ $( document ).ready(function() {
 		console.log(data);
 
 		var token = JSON.parse(localStorage.token);
-		token = token.token,
+		token = token.token;
 
 		$.ajax({url: "https://tiyagencyweek.herokuapp.com/blogs/create",
 	        type:"POST",

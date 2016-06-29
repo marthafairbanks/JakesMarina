@@ -1,8 +1,9 @@
 $( document ).ready(function() {
 	$('input.form-control.username').focus();
 	// localStorage.removeItem("token");
+	var token = localStorage.token;
 
-	if (localStorage.token === '{"token":"M44ASR0FL0PJH3OLJ5RC"}') {
+	if (token != null) {
 		window.location.replace('admin.html');
 	}
 

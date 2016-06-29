@@ -8,11 +8,27 @@ $( document ).ready(function() {
 	    headers:{
             'X_CSRF_TOKEN': token,
         },
-	    success: function(result) {
-	    	console.log(result);
-	    }
-	});
+	    success: function(results) {
+	    	var blogArray = results.blogs;
+	    	console.log(blogArray);
 
+	    	function writeBlog(){
+   				blogArray.forEach(function(results) {
+			
+				$(".rowBlog").append('<article><h3>' + results.title + '</h3><p>' + results.description +
+					'</p></article>');
+			
+				}
+   			
+   			);}
+   			
+   			writeBlog();
+
+	    }
+
+
+
+	});
 
 
 });	

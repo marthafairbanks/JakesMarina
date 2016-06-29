@@ -21,3 +21,13 @@ h3 {
 		margin-bottom: 10px;
 	}
 }
+
+//styles the blog at blog.html
+.rowBlog {
+	article {
+		h3{
+			text-align: left;
+			color: red;
+		}
+	}
+}

@@ -24,6 +24,18 @@ h3 {
   text-align: left;
   color: red; }
 
+.navCol {
+  background-color: #FE5301; }
+
+ul {
+  display: inline-block; }
+
+li.navList {
+  display: inline-block;
+  text-align: center; }
+  li.navList a {
+    text-decoration: none; }
+
 img.boatImgs {
   margin: 0 auto;
   display: block;

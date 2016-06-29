@@ -1,6 +1,31 @@
+
+$bro:#FE5301;
+
+
+
 @import 'blog';
+
 @import 'admin';
 
+
+
+.navCol {
+	background-color:$bro;
+}
+
+ul {
+	display:inline-block;
+}
+
+li.navList {
+	display:inline-block;
+	text-align:center;
+
+		a {
+			
+			text-decoration: none;
+		}
+}
 
 img.boatImgs {
 	margin: 0 auto;

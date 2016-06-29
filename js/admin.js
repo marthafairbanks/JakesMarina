@@ -29,6 +29,8 @@ $( document ).ready(function() {
 		            'X_CSRF_TOKEN': token,
 		        },
 			    success: function(result) {
+			    	$('input').val('');
+			    	$('textarea').val('');
 			    	}
 				});
 

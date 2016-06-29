@@ -21,9 +21,10 @@ $( document ).ready(function() {
 							' on ' + date + '<p>' + results.description + '</p></article>');
 		   				}
 		   				else {
+		   					var author = "Jake's Marina Staff";
 		   					
-							$(".blog").append('<article><h3>' + results.title + '</h3>Published by: Jakes' +
-							'Marina Staff on ' + date + '<p>' + results.description + '</p></article>');
+							$(".blog").append('<article><h3>' + results.title + '</h3>Published by: ' + author + 
+							' on ' + date + '<p>' + results.description + '</p></article>');
 						}					
 					}
    			

@@ -1,4 +1,8 @@
 $( document ).ready(function() {
+
+	var token = JSON.parse(localStorage.token);
+		token = token.token,
+
 	$.ajax({url: "https://tiyagencyweek.herokuapp.com/blogs",
 	    type:"GET",
 	    headers:{

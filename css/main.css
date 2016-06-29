@@ -17,6 +17,7 @@ img.boatImgs {
     height: 350px;
     position: relative;
     margin: 0 auto;
+    overflow: hidden;
     width: 350px; }
   #circleslider3 .overview {
     background-color: #efefef;

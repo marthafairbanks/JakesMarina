@@ -10,17 +10,15 @@ $( document ).ready(function() {
   		var boatName = marinaInfo.name;
  		var boatPic = marinaInfo.picture;
 
-  		$('.bxslider').append('<li><img class="sliderPics" src='+boatPic+' title="'+boatName+'"/></li>');
- 		
-		$('#thumbnail').append('<a data-slide-index="0" href=""><img class="thumbnailPic" src='+boatPic+'></a>');
+  		$('.overview').append('<li><img class="boatImgs" src="'+boatPic+'" /></li>');
 		});
- 	$('.bxslider').bxSlider({
-  		//pagerCustom: '#thumbnail',
-  		mode: 'fade',
-  		//captions: true
-	});
 
- 	}
+  			$("#circleslider3").tinycircleslider({
+  			dotsSnap : true,   
+    		radius   : 184,   
+   			dotsHide : false
+  			});
+      }
   });
 
 });	

@@ -112,7 +112,9 @@ img.boatImgs {
     left: 137px;
     width: 100px;
     z-index: 200;
-    height: 100px; }
+    height: 100px;
+    margin-left: -243px;
+    margin-top: -5px; }
   #circleslider3 .dot {
     cursor: pointer;
     background: url(http://baijs.com/tinycircleslider/images/bg-dot3.png) no-repeat 0 0;
@@ -125,6 +127,9 @@ img.boatImgs {
     position: absolute;
     left: -241px;
     top: -6px;
-    z-index: 100; }
+    z-index: 100;
+    margin-left: -160px;
+    margin-top: -6px; }
     #circleslider3 .dot span {
+      display: none;
       cursor: pointer; }

@@ -114,6 +114,8 @@ img.boatImgs {
 					width: 100px; 
 					z-index: 200; 
 					height: 100px;
+					margin-left: -243px;
+					margin-top:-5px;
 				}
 
 					.dot { 
@@ -129,8 +131,11 @@ img.boatImgs {
 						left: -241px; 
 						top: -6px; 
 						z-index: 100;
+						margin-left: -160px;
+						margin-top: -6px;
 
 						span { 
+							display:none;
 							cursor: pointer;
 						}
 					}	

@@ -1,6 +1,7 @@
 $( document ).ready(function() {
 	$('input.form-control.username').focus();
 	// localStorage.removeItem("token");
+	console.log(localStorage);
 	var token = localStorage.token;
 
 	if (token != null) {

@@ -1,8 +1,10 @@
+$bro:#FE5301;
+
 .rowBlog {
 	article {
 		h3{
 			text-align: left;
-			color: red;
+			color: $bro;
 		}
 	}
 }

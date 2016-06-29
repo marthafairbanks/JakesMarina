@@ -1,12 +1,10 @@
 $( document ).ready(function() {
 
-	var token = JSON.parse(localStorage.token);
-		token = token.token,
 
 	$.ajax({url: "https://tiyagencyweek.herokuapp.com/blogs",
 	    type:"GET",
 	    headers:{
-            'X_CSRF_TOKEN': token,
+            'X_CSRF_TOKEN': 'M44ASR0FL0PJH3OLJ5RC',
         },
 	    success: function(results) {
 	    	var blogArray = results.blogs;
@@ -14,11 +12,20 @@ $( document ).ready(function() {
 
 	    	function writeBlog(){
    				blogArray.forEach(function(results) {
-			
-				$(".rowBlog").append('<article><h3>' + results.title + '</h3><p>' + results.description +
-					'</p></article>');
-			
-				}
+
+	   				var date = moment(results.posted).format('MMMM DD, YYYY');	
+		   				if (results.user === 'M44ASR0FL0PJH3OLJ5RC') {
+		   					var author = "Jake";
+
+		   					$(".blog").append('<article><h3>' + results.title + '</h3>Published by: ' + author + 
+							' on ' + date + '<p>' + results.description + '</p></article>');
+		   				}
+		   				else {
+		   					
+							$(".blog").append('<article><h3>' + results.title + '</h3>Published by: Jakes' +
+							'Marina Staff on ' + date + '<p>' + results.description + '</p></article>');
+						}					
+					}
    			
    			);}
    			

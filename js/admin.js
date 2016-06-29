@@ -1,33 +1,37 @@
 $( document ).ready(function() {
 	$('input.form-control.blogTitle').focus();
-	
-	$('form').on("submit",function(event){
-		event.preventDefault();
+	// localStorage.removeItem("token");
+	console.log(localStorage);
+	var token = localStorage.token;
 
-		var title = $(this).find('input.form-control.blogTitle').val();
-		var description = $(this).find('textarea.form-control.blogDescription').val();
+	if (token == null) {
+		window.location.replace('adminLogin.html');
+	}
+	else {
+		$('form').on("submit",function(event){
+			event.preventDefault();
 
-		var data = {
-			title: title,
-			description: description
-		};
+			var title = $(this).find('input.form-control.blogTitle').val();
+			var description = $(this).find('textarea.form-control.blogDescription').val();
 
-		console.log(data);
+			var data = {
+				title: title,
+				description: description
+			};
 
-		var token = JSON.parse(localStorage.token);
-		token = token.token;
+			var token = JSON.parse(localStorage.token);
+			token = token.token;
 
-		$.ajax({url: "https://tiyagencyweek.herokuapp.com/blogs/create",
-	        type:"POST",
-	        data:data,
-	       	headers:{
-                'X_CSRF_TOKEN': token,
-            },
-	        success: function(result) {
-	        	console.log(result);
-	    	}
-		});
+			$.ajax({url: "https://tiyagencyweek.herokuapp.com/blogs/create",
+		        type:"POST",
+		        data:data,
+		       	headers:{
+		            'X_CSRF_TOKEN': token,
+		        },
+			    success: function(result) {
+			    	}
+				});
 
-	});
-
+			});
+		}	
 });	

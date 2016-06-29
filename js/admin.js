@@ -25,9 +25,8 @@ $( document ).ready(function() {
             },
 	        success: function(result) {
 	        	console.log(result);
-	
 	    	}
-		})
+		});
 
 	});
 

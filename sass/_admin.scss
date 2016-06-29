@@ -1,8 +1,23 @@
+// styles the admin login form at adminLogin.html
 .adminLogin {
 	width: 25%;
 	margin: auto;
 	margin-top: 100px;
 	input {
+		margin-bottom: 10px;
+	}
+}
+
+// styles the admin blog creation form at admin.html
+h3 {
+	text-align: center;
+	padding-top: 50px;
+}	
+.adminBlog {
+	width: 50%;
+	margin: auto;
+	margin-top: 50px;
+	input, textarea {
 		margin-bottom: 10px;
 	}
 }

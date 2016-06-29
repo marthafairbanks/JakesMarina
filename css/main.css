@@ -5,6 +5,17 @@
   .adminLogin input {
     margin-bottom: 10px; }
 
+h3 {
+  text-align: center;
+  padding-top: 50px; }
+
+.adminBlog {
+  width: 50%;
+  margin: auto;
+  margin-top: 50px; }
+  .adminBlog input, .adminBlog textarea {
+    margin-bottom: 10px; }
+
 .bx-wrapper .bx-pager {
   bottom: -95px; }
 

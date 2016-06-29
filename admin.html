@@ -19,13 +19,14 @@
 	<body>
 
 		<div class="container-fluid">
-			<div class = "row rowLogin">
-				<form class = "adminLogin">
-					<fieldset class="form-group adminForm">
-						<label for="username">Blog Setup!!!!!!!!</label>
-					    <input type="username" class="form-control username" placeholder="Enter username">
-						<label for="password">Password</label>
-					    <input type="password" class="form-control password" placeholder="Password">
+			<div class = "row rowBlog">
+				<h3>New Blog Entry</h3>
+				<form class = "adminBlog">
+					<fieldset class="form-group adminBlogForm">
+						<label for="text">Blog Title</label>
+					    <input type="text" class="form-control blogTitle">
+						<label for="blogDescription">Blog Content</label>
+					    <textarea class="form-control blogDescription" rows="15"></textarea>
 						<button type="submit" class="btn btn-primary">Submit</button>
 					</fieldset>
 				</form>		
@@ -34,9 +35,9 @@
 			
 		<script src = "https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
 
-		<script src="js/jquery.bxslider/jquery.bxslider.min.js"></script>
+		<script src = "js/jquery.bxslider/jquery.bxslider.min.js"></script>
 		<script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-		<script src = ""></script>
+		<script src = "js/blog.js"></script>
 
 	</body>
 </html>

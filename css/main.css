@@ -66,36 +66,50 @@ h3 {
   text-align: left;
   color: red; }
 
-.navCol {
-  background-color: darkgray; }
+.header {
+  background-color: #DCDCDC; }
 
 ul {
   display: inline-block;
-  margin-top: 50px; }
+  margin-bottom: 0; }
 
 li.navList {
   display: inline-block;
-  text-align: center; }
+  text-align: center;
+  margin-top: 105px; }
   li.navList a {
-    font-family: "Cormorant Unicase", serif;
-    font-size: 35px;
-    padding: 20px;
+    font-family: "Bungee Shade", cursive;
+    font-size: 25px;
+    margin-right: 10px;
     color: #ffffff;
-    text-decoration: none; }
+    text-decoration: none;
+    text-align: center;
+    background-color: darkgray;
+    padding: 20px;
+    border-radius: 5px; }
     li.navList a:hover {
-      color: #FFC996; }
+      background-color: #DCDCDC;
+      color: darkgray; }
 
 h1 {
-  font-family: "Cormorant Unicase", serif;
-  color: #ffffff;
+  font-family: "Bungee Shade", cursive;
+  color: darkgray;
   display: inline-block;
-  font-size: 50px; }
+  font-size: 50px;
+  text-align: center; }
 
 img.logo {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-right: 9px;
-  width: 133px; }
+  padding-top: 19px;
+  margin-left: 25px;
+  width: 96px;
+  transform: rotate(18deg);
+  display: inline-block; }
+
+img.logoState {
+  display: block;
+  margin-top: -55px;
+  width: 88px;
+  padding-bottom: 19px; }
 
 img.boatImgs {
   margin: 0 auto;
@@ -103,6 +117,11 @@ img.boatImgs {
   width: 375px;
   height: 340px;
   margin-top: 4px; }
+
+.sliderMain {
+  width: 500px;
+  display: block;
+  margin: 0 auto; }
 
 #circleslider3 {
   height: 350px;
@@ -149,8 +168,8 @@ img.boatImgs {
     width: 100px;
     z-index: 200;
     height: 100px;
-    margin-left: 148px;
-    margin-top: -33px; }
+    margin-left: -31px !important;
+    margin-top: -10px !important; }
   #circleslider3 .dot {
     cursor: pointer;
     background: url(http://baijs.com/tinycircleslider/images/bg-dot3.png) no-repeat 0 0;
@@ -162,8 +181,8 @@ img.boatImgs {
     width: 22px;
     position: absolute;
     z-index: 100;
-    margin-left: -240px;
-    margin-top: -6px; }
+    margin-left: -14px !important;
+    margin-top: -6px !important; }
     #circleslider3 .dot span {
       display: none;
       cursor: pointer; }

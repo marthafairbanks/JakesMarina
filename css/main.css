@@ -77,9 +77,9 @@ img.boatImgs {
   #circleslider3 .viewport {
     height: 350px;
     position: relative;
-    margin: 0 auto;
     overflow: hidden;
-    width: 350px; }
+    width: 350px;
+    margin: 0 auto; }
   #circleslider3 .overview {
     background-color: #efefef;
     position: absolute;
@@ -107,14 +107,12 @@ img.boatImgs {
     background: url(http://www.select-salmon.gr/userfiles/image/compass.png) no-repeat 50% 50%;
     position: absolute;
     background-size: 120px;
-    top: -3px;
     cursor: pointer;
-    left: 137px;
     width: 100px;
     z-index: 200;
     height: 100px;
-    margin-left: -243px;
-    margin-top: -5px; }
+    margin-left: 148px;
+    margin-top: -33px; }
   #circleslider3 .dot {
     cursor: pointer;
     background: url(http://baijs.com/tinycircleslider/images/bg-dot3.png) no-repeat 0 0;
@@ -125,10 +123,8 @@ img.boatImgs {
     color: #555;
     width: 22px;
     position: absolute;
-    left: -241px;
-    top: -6px;
     z-index: 100;
-    margin-left: -160px;
+    margin-left: -240px;
     margin-top: -6px; }
     #circleslider3 .dot span {
       display: none;

@@ -31,9 +31,12 @@ $( document ).ready(function() {
             'X_CSRF_TOKEN': 'M44ASR0FL0PJH3OLJ5RC',
         },
     success: function (data) {
-      var blog = data.blogs;
 
-      $('.blogBox').append('<article><h3>'+blog.title+'</h3></article>');
+      var blog = [data.blogs];
+      var end = blog.lastIndexOf();
+        console.log(blog);
+      var date = moment(end.posted).format('MMMM DD, YYYY');  
+      $('.blogBox').append('<article><h3>'+end.title+'</h3><h3>Published on '+date+'</h3><p>'+end.description+'</p></article>');
     }
 
   });

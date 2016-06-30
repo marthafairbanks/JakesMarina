@@ -12,12 +12,14 @@ $nav-font:'Bungee Shade', cursive;
 			padding: 0px;
 			background-color: none;
 			padding-top: 20px;
+;
 			.form-all {
 				box-shadow: 10px 10px 5px #888888;
 				border-radius: 5px;
 				border: 2px solid $bro;
 				padding: none;
-				width: inherit;
+				width: 370px;
+				
 				ul.form-section {
 					padding: none;
 					font-family: sans-serif;

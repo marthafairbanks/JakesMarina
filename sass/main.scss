@@ -72,9 +72,9 @@ img.boatImgs {
 	.viewport{ 
 		height:350px; 
 		position: relative; 
-		margin:0 auto; 
 		overflow:hidden;
 		width:350px; 
+		margin:0 auto;
 	}
 
 		.overview { 
@@ -110,14 +110,13 @@ img.boatImgs {
 					background:url(http://www.select-salmon.gr/userfiles/image/compass.png) no-repeat 50% 50%; 
 					position: absolute; 
 					background-size: 120px;
-					top: -3px; 
 					cursor: pointer; 
-					left: 137px; 
 					width: 100px; 
 					z-index: 200; 
 					height: 100px;
-					margin-left: -243px;
-					margin-top:-5px;
+					margin-left:148px;
+					margin-top:-33px;
+					
 				}
 
 					.dot { 
@@ -130,10 +129,9 @@ img.boatImgs {
 						color: #555; 
 						width: 22px; 
 						position: absolute; 
-						left: -241px; 
-						top: -6px; 
+						
 						z-index: 100;
-						margin-left: -160px;
+						margin-left: -240px;
 						margin-top: -6px;
 
 						span { 

@@ -15,7 +15,33 @@ $green:#97FFD4;
 .header {
 	background-color: $light-gray;
 	border-bottom: 3px solid #FE5301;
+	.navMiddle{
+		.logo{
+			width: 150px;
+			padding-top: 10px;
+			margin: 0 auto;
+			margin-left: -10px;
+			display: block;
+		}
+		.background {
+			z-index: 999;
+			position: absolute;
+			margin-top: -90px;
+			margin-left: 15px;
+			font-family: 'Bungee', cursive;
+			color: darken($light-gray, 40);
 
+		}
+		.foreground {
+			z-index: 1000;
+			position: absolute;
+			margin-top: -95px;
+			margin-left: 25px;
+			font-family: 'Bungee', cursive;
+			color: white;
+			opacity: .98;	
+		}
+	}
 }
 
 ul {
@@ -55,13 +81,13 @@ h1 {
 	text-align:center;
 }
 
-img.logo {
-	padding-top:19px;
-	margin-left:25px;
-	width:96px;
-	transform:rotate(18deg);
-	display:inline-block;
-}
+// img.logo {
+// 	padding-top:19px;
+// 	margin-left:25px;
+// 	width:96px;
+// 	// transform:rotate(18deg);
+// 	display:inline-block;
+// }
 
 img.logoState {
 	display:block;

@@ -109,6 +109,27 @@ h3 {
 .header {
   background-color: #DCDCDC;
   border-bottom: 3px solid #FE5301; }
+  .header .navMiddle .logo {
+    width: 150px;
+    padding-top: 10px;
+    margin: 0 auto;
+    margin-left: -10px;
+    display: block; }
+  .header .navMiddle .background {
+    z-index: 999;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 15px;
+    font-family: 'Bungee', cursive;
+    color: #767676; }
+  .header .navMiddle .foreground {
+    z-index: 1000;
+    position: absolute;
+    margin-top: -95px;
+    margin-left: 25px;
+    font-family: 'Bungee', cursive;
+    color: white;
+    opacity: .98; }
 
 ul {
   display: inline-block;
@@ -138,13 +159,6 @@ h1 {
   display: inline-block;
   font-size: 50px;
   text-align: center; }
-
-img.logo {
-  padding-top: 19px;
-  margin-left: 25px;
-  width: 96px;
-  transform: rotate(18deg);
-  display: inline-block; }
 
 img.logoState {
   display: block;

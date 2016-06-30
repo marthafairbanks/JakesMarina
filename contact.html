@@ -14,7 +14,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<link href="https://fonts.googleapis.com/css?family=Cormorant+Unicase" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
-
+		<script src="https://use.fontawesome.com/3bc19f98ca.js"></script>
 		<!--email us form info-->
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<link rel="alternate" type="application/json+oembed" href="https://www.jotform.com/oembed/?format=json&amp;url=http%3A%2F%2Fwww.jotform.com%2Fform%2F61806473302148" title="oEmbed Form"><link rel="alternate" type="text/xml+oembed" href="https://www.jotform.com/oembed/?format=xml&amp;url=http%3A%2F%2Fwww.jotform.com%2Fform%2F61806473302148" title="oEmbed Form">
@@ -68,7 +68,25 @@
 			</div>
 			<div class = "row rowContact">
 				<div class = "col-md-6 contactBox">
+				
+						<h2 class="contactTitle">Get In Touch</h2>
+							<div class="markerSpot">
+								<i class="fa fa-map-marker markerIcon" aria-hidden="true"></i>
+								<p class="location">2345 Notreal Ave.</p>
+								<p class="location two">New York, New York</p>
+							</div>
+							<div class="cellSpot">
+								<i class="fa fa-mobile cellIcon" aria-hidden="true"></i>
+								<p class="call">Call Us</p>
+								<p class="number">(123) 456-7890</p>
+							</div>
+							<div class="emailSpot">
+								<i class="fa fa-envelope envelopeIcon" aria-hidden="true"></i>
+								<p class="email">Email Us</p>
+								<p class="eAddress">omgcomics2@gmail.com</p>
+							</div>
 				</div>
+
 				<div class = "col-md-6 emailForm">
 					<!--contact us form-->
 					<form class="jotform-form" action="https://submit.jotform.us/submit/61806473302148/" method="post" name="form_61806473302148" id="61806473302148" accept-charset="utf-8">
@@ -79,7 +97,7 @@
 					      			<li class="form-line" data-type="control_textbox" id="id_4">
 					        			<label class="form-label form-label-left form-label-auto" id="label_4" for="input_4"> Name: </label>
 						        		<div id="cid_4" class="form-input jf-required">
-				        	  				<input type="text" class=" form-textbox" data-type="input-textbox" id="input_4" name="q4_name" size="52" value="" />
+				        	  				<input type="text" class=" form-textbox" data-type="input-textbox" id="input_4" name="q4_name" size="52" value=""></input>
 				        				</div>
 				      				</li>
 				      				<li class="form-line" data-type="control_email" id="id_3">
@@ -106,30 +124,37 @@
 				      				</li>
 				      				<li style="display:none">
 				        				Should be Empty:
-				        				<input type="text" name="website" value="" />
+				        				<input type="text" name="website" value=""></input>
 				      				</li>
 				    			</ul>
 				  			</div>
 				  		<script>
 				  			JotForm.showJotFormPowered = true;
 				 		</script>
-				  		<input type="hidden" id="simple_spc" name="simple_spc" value="61806473302148" />
+				  		<input type="hidden" id="simple_spc" name="simple_spc" value="61806473302148"></input>
 				  			<script type="text/javascript">
 							  document.getElementById("si" + "mple" + "_spc").value = "61806473302148-61806473302148";
 				 			 </script>
 					</form>	
 					<!--end of contact us form-->
 				</div>
+			</div>
+
+			<div class="map row">
+				<div class="col-lg-12 mapContainer">
+					<h3 class="mapTitle">Google Map</h3>
+  						<div id="map"></div>
+				</div>	
 			</div>	
+
 		</div>
 			
 		<script src = "https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-		<script src="http://baijs.com/tinycircleslider/js/jquery.tinycircleslider.js"></script>
-
 		<script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-		<script src = "js/main.js"></script>
+		<script src = "js/contact.js"></script>
+		 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCt-jsamV4PszGB2VGUeR9ri1W2I1HLdbw&callback=initMap"></script>
 
 	</body>
 </html>

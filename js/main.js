@@ -32,11 +32,11 @@ $( document ).ready(function() {
         },
     success: function (data) {
 
-      var blog = [data.blogs];
-      var end = blog.lastIndexOf();
+      var blog = data.blogs;
+      var end = blog.length-1;
         console.log(blog);
       var date = moment(end.posted).format('MMMM DD, YYYY');  
-      $('.blogBox').append('<article><h3>'+end.title+'</h3><h3>Published on '+date+'</h3><p>'+end.description+'</p></article>');
+      $('.blogBox').append('<article><h3 class="blogTitle">'+blog[end].title+'</h3><h3>Published on '+date+'</h3><p>'+blog[end].description+'</p></article>');
     }
 
   });

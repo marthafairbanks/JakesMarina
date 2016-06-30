@@ -187,3 +187,32 @@ img.boatImgs {
     #circleslider3 .dot span {
       display: none;
       cursor: pointer; }
+
+.blogFeed {
+  margin-top: 85px; }
+
+.blogBox article {
+  background-color: rgba(253, 112, 68, 0.6);
+  width: 50%;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+  box-shadow: 10px 10px 5px #888888; }
+  .blogBox article .blogTitle {
+    text-align: center;
+    font-family: 'Bungee Outline', cursive;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 5px; }
+  .blogBox article span {
+    font-weight: bold; }
+  .blogBox article p {
+    text-align: left;
+    padding: 5px;
+    padding-top: 5px;
+    font-weight: none; }

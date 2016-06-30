@@ -8,6 +8,7 @@ $( document ).ready(function() {
         },
 	    success: function(results) {
 	    	var blogArray = results.blogs;
+	    	var blogArray = blogArray.reverse();
 	    	console.log(blogArray);
 
 	    	function writeBlog(){
@@ -17,13 +18,14 @@ $( document ).ready(function() {
 		   				if (results.user === 'M44ASR0FL0PJH3OLJ5RC') {
 		   					var author = "Jake";
 
-		   					$(".blog").append('<article><h3>' + results.title + '</h3>Published by: ' + author + 
-							' on ' + date + '<p>' + results.description + '</p></article>');
+		   					$(".blog").append('<article><h3 class = "title">' + results.title + 
+		   						'</h3><span>Published by: ' + author + ' on ' + date + '</span><p>' + 
+		   						results.description + '</p></article>');
 		   				}
 		   				else {
 		   					var author = "Jake's Marina Staff";
 		   					
-							$(".blog").append('<article><h3>' + results.title + '</h3>Published by: ' + author + 
+							$(".blog").append('<article><h3 class = "title">' + results.title + '</h3>Published by: ' + author + 
 							' on ' + date + '<p>' + results.description + '</p></article>');
 						}					
 					}

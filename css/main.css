@@ -67,7 +67,8 @@ h3 {
   color: red; }
 
 .header {
-  background-color: #DCDCDC; }
+  background-color: #DCDCDC;
+  border-bottom: 3px solid #FE5301; }
 
 ul {
   display: inline-block;

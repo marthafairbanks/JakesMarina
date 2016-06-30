@@ -1,4 +1,4 @@
-$nav-font:'Cormorant Unicase', serif;
+$nav-font:'Bungee Shade', cursive;
 $bro:#FE5301;
 $light-orange:#FFC996;
 $light-gray:#DCDCDC;
@@ -10,44 +10,61 @@ $green:#97FFD4;
 
 @import 'admin';
 
-.navCol {
-	background-color:darken($light-gray,20)
+.header {
+	background-color: $light-gray;
 }
 
 ul {
 	display:inline-block;
-	margin-top:50px;
+	margin-bottom:0;
+
 }
 
 li.navList {
 	display:inline-block;
 	text-align:center;
+	margin-top:105px;
 
 		a {
 			font-family: $nav-font;
-			font-size: 35px;
-			padding:20px;
+			font-size: 25px;
+			margin-right: 10px;
 			color:#ffffff;
 			text-decoration: none;
+			text-align: center;
+			background-color:darken($light-gray,20);
+			padding:20px;
+			border-radius:5px;
 
 			&:hover {
-				color:$light-orange;
+				background-color:$light-gray;
+				color:darken($light-gray,20);
 			}
 		}
 }
 
 h1 {
 	font-family:$nav-font;
-	color:#ffffff;
+	color:darken($light-gray,20);
 	display:inline-block;
 	font-size:50px;
+	text-align:center;
 }
 
 img.logo {
-	padding-top:20px;
-	padding-bottom:20px;
-	padding-right:9px;
-	width:133px;
+	padding-top:19px;
+	margin-left:25px;
+	width:96px;
+	transform:rotate(18deg);
+	display:inline-block;
+}
+
+img.logoState {
+	display:block;
+	//margin-left:69px;
+	margin-top:-55px;
+	width:88px;
+	padding-bottom:19px;
 }
 
 img.boatImgs {
@@ -56,6 +73,12 @@ img.boatImgs {
 	width:375px;
 	height:340px;
 	margin-top:4px;
+}
+
+.sliderMain {
+	width:500px;
+	display:block;
+	margin:0 auto;
 }
 
 #circleslider3 { 
@@ -112,8 +135,8 @@ img.boatImgs {
 					width: 100px; 
 					z-index: 200; 
 					height: 100px;
-					margin-left:148px;
-					margin-top:-33px;
+					margin-left:-31px !important;
+					margin-top:-10px !important;
 					
 				}
 
@@ -129,8 +152,8 @@ img.boatImgs {
 						position: absolute; 
 						
 						z-index: 100;
-						margin-left: -240px;
-						margin-top: -6px;
+						margin-left: -14px !important;
+						margin-top: -6px !important;
 
 						span { 
 							display:none;

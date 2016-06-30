@@ -1,6 +1,28 @@
+.boatInfo {
+  background-color: rgba(253, 112, 68, 0.6);
+  width: 500px;
+  border-radius: 5px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
+  text-align: center;
+  box-shadow: 10px 10px 5px #888888; }
+
 img.productBoatImg {
-  height: 80px;
-  width: 80px; }
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+  display: block;
+  padding-top: 30px;
+  padding-bottom: 20px; }
+
+.boatDescrip {
+  padding-bottom: 20px; }
 
 .rowContact {
   background-color: white; }

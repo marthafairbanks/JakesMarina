@@ -35,7 +35,7 @@ $( document ).ready(function() {
       var blog = data.blogs;
       var end = blog.length-1;
         console.log(blog);
-      var date = moment(end.posted).format('MMMM DD, YYYY');  
+      var date = moment(blog[end].posted).format('MMMM DD, YYYY');  
       $('.blogBox').append('<article><h3 class="blogTitle">'+blog[end].title+'</h3><h3>Published on '+date+'</h3><p>'+blog[end].description+'</p></article>');
     }
 

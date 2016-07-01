@@ -1,30 +1,41 @@
-.boatInfo {
-	background-color: rgba(253,112,68, .6);
-	width:500px;
-	border-radius: 5px;
-	padding-left: 24px;
-	padding-right: 24px;
-	margin:0 auto;
-	display:block;
-	margin-bottom: 50px;
-	margin-left:20px;
-	margin-right:20px;
-	margin-top:40px;
-	text-align: center;	
-	box-shadow: 10px 10px 5px #888888;
 
+.boatRow {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 12px;
+	// padding-left: 20px;
+	// padding-right: 20px;
+	.col-md-6 {
+		margin-top: 30px;
+		.boatInfo {
+			background-color: rgba(253,112,68, .6);
+			width:400px;
+			border-radius: 5px; 
+			padding-left: 24px;
+			padding-right: 24px;
+			padding-top: 20px;
+			text-align: center;	
+			box-shadow: 10px 10px 5px #888888;
+			margin:0 auto;
+			display: block;
 
-}
-img.productBoatImg {
-	height:200px;
-	width:200px;
-	margin:0 auto;
-	display:block;
-	padding-top:30px;
-	padding-bottom:20px;
-	//margin-bottom:40px;
-}
+			img.productBoatImg {
+				height:250px;
+				width:250px;
+				margin:0 auto;
+				display:block;
+				border: 1px solid white;
+				margin-bottom: 10px;
+			}
 
-.boatDescrip {
-	padding-bottom:20px;
-}
+			.boatDescrip {
+				padding-bottom:20px;
+				padding-top: 10px;
+			}
+			.boatName, .boatPrice {
+				font-weight: bold;
+			}
+		}
+	}
+}		

@@ -1,44 +1,60 @@
-.boatInfo {
-  background-color: rgba(253, 112, 68, 0.6);
-  width: 500px;
-  border-radius: 5px;
-  padding-left: 24px;
-  padding-right: 24px;
-  margin: 0 auto;
-  display: block;
-  margin-bottom: 50px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 40px;
-  text-align: center;
-  box-shadow: 10px 10px 5px #888888; }
-
-img.productBoatImg {
-  height: 200px;
-  width: 200px;
-  margin: 0 auto;
-  display: block;
-  padding-top: 30px;
-  padding-bottom: 20px; }
-
-.boatDescrip {
-  padding-bottom: 20px; }
+.boatRow {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 12px; }
+  .boatRow .col-md-6 {
+    margin-top: 30px; }
+    .boatRow .col-md-6 .boatInfo {
+      background-color: rgba(253, 112, 68, 0.6);
+      width: 400px;
+      border-radius: 5px;
+      padding-left: 24px;
+      padding-right: 24px;
+      padding-top: 20px;
+      text-align: center;
+      box-shadow: 10px 10px 5px #888888;
+      margin: 0 auto;
+      display: block; }
+      .boatRow .col-md-6 .boatInfo img.productBoatImg {
+        height: 250px;
+        width: 250px;
+        margin: 0 auto;
+        display: block;
+        border: 1px solid white;
+        margin-bottom: 10px; }
+      .boatRow .col-md-6 .boatInfo .boatDescrip {
+        padding-bottom: 20px;
+        padding-top: 10px; }
+      .boatRow .col-md-6 .boatInfo .boatName, .boatRow .col-md-6 .boatInfo .boatPrice {
+        font-weight: bold; }
 
 .rowContact {
-  background-color: white; }
-  .rowContact .emailForm form {
-    padding: 0px;
-    background-color: none;
-    padding-top: 20px; }
-    .rowContact .emailForm form .form-all {
-      box-shadow: 10px 10px 5px #888888;
-      border-radius: 5px;
-      border: 2px solid #FE5301;
-      padding: none;
-      width: 370px; }
-      .rowContact .emailForm form .form-all ul.form-section {
+  background-color: white;
+  padding-top: 20px; }
+  .rowContact .emailForm {
+    background-color: white; }
+    .rowContact .emailForm form {
+      padding: 0px;
+      background-color: white; }
+      .rowContact .emailForm form h2 {
+        font-family: "Bungee Shade", cursive;
+        color: darkgray;
+        padding-top: 0px;
+        text-align: center; }
+      .rowContact .emailForm form .form-all {
+        box-shadow: 10px 10px 5px #888888;
+        border-radius: 5px;
+        border: 2px solid #FE5301;
         padding: none;
-        font-family: sans-serif; }
+        width: 90%;
+        margin-left: 25px; }
+        .rowContact .emailForm form .form-all ul.form-section {
+          padding: none; }
+          .rowContact .emailForm form .form-all ul.form-section .form-line .form-label {
+            font-weight: normal;
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            margin-bottom: 0; }
 
 .mapTitle {
   font-family: "Bungee Shade", cursive;
@@ -59,7 +75,6 @@ img.productBoatImg {
   margin-bottom: 40px; }
 
 h2.contactTitle {
-  font-size: 40px;
   text-align: center;
   font-family: "Bungee Shade", cursive;
   color: darkgray;

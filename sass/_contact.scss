@@ -73,3 +73,14 @@ h2.contactTitle {
 	margin:0;
 
 }
+
+.markerSpot,.cellSpot,.faxSpot,.emailSpot {
+	text-align:center;
+	padding-top:20px;
+
+	i.fa {
+		color:$bro;
+		font-size: 25px;
+	}
+}
+

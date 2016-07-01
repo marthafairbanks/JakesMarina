@@ -66,6 +66,13 @@ h2.contactTitle {
   padding-top: 20px;
   margin: 0; }
 
+.markerSpot, .cellSpot, .faxSpot, .emailSpot {
+  text-align: center;
+  padding-top: 20px; }
+  .markerSpot i.fa, .cellSpot i.fa, .faxSpot i.fa, .emailSpot i.fa {
+    color: #FE5301;
+    font-size: 25px; }
+
 .rowBlog article {
   background-color: rgba(253, 112, 68, 0.6);
   width: 50%;
@@ -113,6 +120,9 @@ h3 {
 .rowBlog article h3 {
   text-align: left;
   color: red; }
+
+img.jakePic {
+  width: 100px; }
 
 .header {
   background-color: #DCDCDC;

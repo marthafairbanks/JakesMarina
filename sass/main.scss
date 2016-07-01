@@ -91,13 +91,6 @@ h1 {
 	text-align:center;
 }
 
-// img.logo {
-// 	padding-top:19px;
-// 	margin-left:25px;
-// 	width:96px;
-// 	// transform:rotate(18deg);
-// 	display:inline-block;
-// }
 
 img.logoState {
 	display:block;
@@ -210,7 +203,7 @@ img.boatImgs {
 
 	article {
 		background-color: rgba(253,112,68, .6);
-		width: 50%;
+		width: 400px;
 		border-radius: 5px;
 		margin: 0 auto;
 		padding-left: 10px;
@@ -251,9 +244,6 @@ img.boatImgs {
 ul.footerItems {
 	margin:0 auto;
 	display:block;
-	// display:inline-block;
-	// margin-bottom:0;
-	// padding-left:0;
 
 }
 
@@ -318,3 +308,20 @@ li.boatCosList {
 		
 	}
 }		
+
+.twitterFeed {
+	margin-top:85px;
+}
+
+.twitterBox {
+	width:400px;
+	background-color: $light-gray;
+	border-radius: 5px;
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 50px;
+	text-align: center;	
+	box-shadow: 10px 10px 5px #888888;
+}
+

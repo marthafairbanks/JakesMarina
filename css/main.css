@@ -228,7 +228,7 @@ body {
   border-bottom-right-radius: 10px;
   background-color: #FE5301; }
 
-.location {
+p.location {
   position: absolute;
   top: 128px;
   left: 63px;

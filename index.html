@@ -14,6 +14,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<link href="https://fonts.googleapis.com/css?family=Bungee|Bungee+Shade" rel="stylesheet">
 
+		 <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700,inherit,400" rel="stylesheet" type="text/css">
+ 
 	</head>
 	<body>
 
@@ -66,8 +68,18 @@
 				<div class="col-lg-5 twitterFeed">
 					<div class="twitterBox">
 					</div>
-					<div class="weatherBox">
-					</div>
+					<div class="container clearfix">
+					    <p class="location"></p>
+					    <p class="temperature"></p>
+    						<div class="climate_bg"></div>
+    					<div class="info_bg">
+      						<img class="dropicon" src="images/Droplet.svg">
+     						 <p class="humidity"></p>
+
+      						<img class="windicon" src="images/Wind.svg">
+      						<div class="windspeed"></div>
+    						</div>
+  					</div>
 				</div>
 			</div>
 
@@ -84,13 +96,22 @@
 
 			<div class="footer row">
 
-					<div class="col-sm-12 footerNav">
+					<div class="col-sm-6 footerNav">
 						<ul class="footerItems">
 							<li class="footerNavList"><a href="index.html">Home</a></li>
 							<li class="footerNavList"><a href="products.html">Products</a></li>
   							<li class="footerNavList"><a href="about.html">About</a></li>
 							<li class="footerNavList"><a href="blog.html">Blog</a></li>
  							<li class="footerNavList"><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+
+					<div class="col-sm-6 footerContact">
+						<ul class="contactItems">
+							<li class="contactList">(765)-458-6431 |</li>
+							<li class="contactList">5179 Old State Road 101<br>
+														Liberty, Indiana 47353 |</li>
+  							<li class="contactList">GimmeABoat@Gmail.com</li>
 						</ul>
 					</div>
 			</div>
@@ -100,10 +121,15 @@
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"</script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js"></script>
 
 		<script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		<script src = "js/moment.js"></script>
 		<script src = "js/slider.js"></script>
+		<script src="bower_components/simpleWeather/jquery.simpleWeather.js"></script>
+				<script src = "js/weather.js"></script>
 		<script src = "js/main.js"></script>
 
 	</body>

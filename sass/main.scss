@@ -14,6 +14,10 @@ $green:#97FFD4;
 
 @import 'about';
 
+@import 'weather';
+
+@import 'standardize';
+
 .header {
 	background-color: $light-gray;
 	border-bottom: 3px solid #FE5301;
@@ -244,7 +248,7 @@ img.boatImgs {
 	border-top: 3px solid #FE5301;
 }	
 
-ul .footerNav{
+ul.footerItems {
 	margin:0 auto;
 	display:block;
 	// display:inline-block;
@@ -256,7 +260,7 @@ ul .footerNav{
 li.footerNavList {
 	display:inline-block;
 	text-align:center;
-	margin:20px;
+	margin:8px;
 
 		a {
 			font-family: $nav-font;
@@ -273,6 +277,30 @@ li.footerNavList {
 		}
 }
 
+ul.contactItems {
+	margin:0 auto;
+	display:block;
+	// display:inline-block;
+	// margin-bottom:0;
+	// padding-left:0;
+
+}
+
+li.contactList {
+	display:inline-block;
+	text-align:center;
+	margin:8px;
+
+		a {
+			//font-family: $nav-font;
+			font-size: 20px;
+			margin-right: 10px;
+			color:darken($light-gray,20);
+			text-decoration: none;
+			text-align: center;
+			background-color:$light-gray;
+		}
+}
 
 ul.cosList{
 	margin:0 auto;

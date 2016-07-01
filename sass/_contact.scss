@@ -1,30 +1,41 @@
 $bro:#FE5301;
 $nav-font:'Bungee Shade', cursive;
 
+
 .rowContact {
 	background-color: white;
+	padding-top:20px;
 	.contactBox {
-		// background-color: red;
-		// height: 500px;
 	}
 	.emailForm {
+		background-color: white;
 		form {
 			padding: 0px;
-			background-color: none;
-			padding-top: 20px;
-;
+			background-color: white;	
+			h2{
+				font-family: $nav-font;
+				color:darken($light-gray,20);
+				padding-top: 0px;
+				text-align: center;
+
+			}
 			.form-all {
 				box-shadow: 10px 10px 5px #888888;
 				border-radius: 5px;
 				border: 2px solid $bro;
 				padding: none;
-				width: 370px;
+				width: 90%;
+				margin-left: 25px;
 				
 				ul.form-section {
 					padding: none;
-					font-family: sans-serif;
 
 					.form-line {
+						.form-label {
+							font-weight: normal;
+							font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+							margin-bottom: 0;
+						}
 						#id_4 { // name list
 
 						}
@@ -65,7 +76,6 @@ $nav-font:'Bungee Shade', cursive;
 	}
 
 h2.contactTitle {
-	font-size:40px;
 	text-align:center;
 	font-family:$nav-font;
 	color:darken($light-gray,20);

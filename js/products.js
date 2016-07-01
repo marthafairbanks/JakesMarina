@@ -12,7 +12,9 @@ $( document ).ready(function() {
  		var boatPrice = marinaInfo.price;
  		var boatDescription = marinaInfo.description;
 
-  		$('.boatRow').append('<div class="col-lg-6 boatInfo"><img class="productBoatImg" src="'+boatPic+'" /><div class="boatPrice">'+boatPrice+'</div><div class="boatName">'+boatName+'</div><div class="boatDescrip">'+boatDescription+'</div></div></div>');
+  		$('.boatRow').append('<div class="col-xs-6"><div class="boatInfo"><img class="productBoatImg" src="'+boatPic+
+        '" /><div class="boatPrice">$'+boatPrice+'</div><div class="boatName">'+boatName+
+        '</div><div class="boatDescrip">'+boatDescription+'</div></div></div></div>');
 		});
 
   		}

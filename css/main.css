@@ -124,6 +124,9 @@ h3 {
 img.jakePic {
   width: 100px; }
 
+img.jeffPic {
+  width: 100px; }
+
 .header {
   background-color: #DCDCDC;
   border-bottom: 3px solid #FE5301; }
@@ -162,15 +165,15 @@ li.navList {
     font-family: "Bungee Shade", cursive;
     font-size: 25px;
     margin-right: 10px;
-    color: #ffffff;
+    color: darkgray;
     text-decoration: none;
     text-align: center;
-    background-color: darkgray;
+    background-color: #DCDCDC;
     padding: 13px;
     border-radius: 5px; }
     li.navList a:hover {
-      background-color: #DCDCDC;
-      color: darkgray; }
+      background-color: darkgray;
+      color: #ffffff; }
 
 h1 {
   font-family: "Bungee Shade", cursive;
@@ -289,3 +292,38 @@ img.boatImgs {
     padding: 5px;
     padding-top: 5px;
     font-weight: none; }
+
+.footer {
+  background-color: #DCDCDC;
+  border-top: 3px solid #FE5301; }
+
+ul .footerNav {
+  margin: 0 auto;
+  display: block; }
+
+li.footerNavList {
+  display: inline-block;
+  text-align: center;
+  margin: 20px; }
+  li.footerNavList a {
+    font-family: "Bungee Shade", cursive;
+    font-size: 20px;
+    margin-right: 10px;
+    color: darkgray;
+    text-decoration: none;
+    text-align: center;
+    background-color: #DCDCDC; }
+    li.footerNavList a:hover {
+      background-color: darkgray;
+      color: #ffffff; }
+
+ul.cosList {
+  margin: 0 auto;
+  display: block; }
+
+li.boatCosList {
+  display: inline-block;
+  text-align: center;
+  margin: 20px; }
+  li.boatCosList img.coLogo {
+    width: 150px; }

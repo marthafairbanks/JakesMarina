@@ -65,16 +65,16 @@ li.navList {
 			font-family: $nav-font;
 			font-size: 25px;
 			margin-right: 10px;
-			color:#ffffff;
+			color:darken($light-gray,20);
 			text-decoration: none;
 			text-align: center;
-			background-color:darken($light-gray,20);
+			background-color:$light-gray;
 			padding:13px;
 			border-radius:5px;
 
 			&:hover {
-				background-color:$light-gray;
-				color:darken($light-gray,20);
+				background-color:darken($light-gray,20);
+				color:#ffffff;
 			}
 		}
 }
@@ -238,3 +238,55 @@ img.boatImgs {
 		}
 	}
 }
+
+.footer {
+	background-color: $light-gray;
+	border-top: 3px solid #FE5301;
+}	
+
+ul .footerNav{
+	margin:0 auto;
+	display:block;
+	// display:inline-block;
+	// margin-bottom:0;
+	// padding-left:0;
+
+}
+
+li.footerNavList {
+	display:inline-block;
+	text-align:center;
+	margin:20px;
+
+		a {
+			font-family: $nav-font;
+			font-size: 20px;
+			margin-right: 10px;
+			color:darken($light-gray,20);
+			text-decoration: none;
+			text-align: center;
+			background-color:$light-gray;
+			&:hover {
+				background-color:darken($light-gray,20);
+				color:#ffffff;
+			}
+		}
+}
+
+
+ul.cosList{
+	margin:0 auto;
+	display:block;
+
+}
+
+li.boatCosList {
+	display:inline-block;
+	text-align:center;
+	margin:20px;
+
+	img.coLogo {
+		width:150px;
+		
+	}
+}		

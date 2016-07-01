@@ -2,11 +2,15 @@
 .boatRow {
 	padding-top: 20px;
 	padding-bottom: 20px;
-	.col-xs-6 {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 12px;
+	// padding-left: 20px;
+	// padding-right: 20px;
+	.col-md-6 {
 		margin-top: 30px;
 		.boatInfo {
 			background-color: rgba(253,112,68, .6);
-			width:500px;
+			width:400px;
 			border-radius: 5px; 
 			padding-left: 24px;
 			padding-right: 24px;
@@ -17,15 +21,20 @@
 			display: block;
 
 			img.productBoatImg {
-				height:350px;
-				width:350px;
+				height:250px;
+				width:250px;
 				margin:0 auto;
 				display:block;
 				border: 1px solid white;
+				margin-bottom: 10px;
 			}
 
 			.boatDescrip {
 				padding-bottom:20px;
+				padding-top: 10px;
+			}
+			.boatName, .boatPrice {
+				font-weight: bold;
 			}
 		}
 	}

@@ -1,11 +1,13 @@
 .boatRow {
   padding-top: 20px;
-  padding-bottom: 20px; }
-  .boatRow .col-xs-6 {
+  padding-bottom: 20px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 12px; }
+  .boatRow .col-md-6 {
     margin-top: 30px; }
-    .boatRow .col-xs-6 .boatInfo {
+    .boatRow .col-md-6 .boatInfo {
       background-color: rgba(253, 112, 68, 0.6);
-      width: 500px;
+      width: 400px;
       border-radius: 5px;
       padding-left: 24px;
       padding-right: 24px;
@@ -14,14 +16,18 @@
       box-shadow: 10px 10px 5px #888888;
       margin: 0 auto;
       display: block; }
-      .boatRow .col-xs-6 .boatInfo img.productBoatImg {
-        height: 350px;
-        width: 350px;
+      .boatRow .col-md-6 .boatInfo img.productBoatImg {
+        height: 250px;
+        width: 250px;
         margin: 0 auto;
         display: block;
-        border: 1px solid white; }
-      .boatRow .col-xs-6 .boatInfo .boatDescrip {
-        padding-bottom: 20px; }
+        border: 1px solid white;
+        margin-bottom: 10px; }
+      .boatRow .col-md-6 .boatInfo .boatDescrip {
+        padding-bottom: 20px;
+        padding-top: 10px; }
+      .boatRow .col-md-6 .boatInfo .boatName, .boatRow .col-md-6 .boatInfo .boatPrice {
+        font-weight: bold; }
 
 .rowContact {
   background-color: white;

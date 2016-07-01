@@ -45,14 +45,13 @@ $nav-font:'Bungee Shade', cursive;
 
 .mapTitle {
 	font-family:$nav-font;
-	font-size:50px;
+	font-size:40px;
 	color:darken($light-gray,20);
 
 }
  #map {
         width: 75%;
         height: 400px;
-        margin-bottom:20px;
         margin:0 auto;
         display:block;
         box-shadow: 10px 10px 5px #888888;
@@ -60,7 +59,17 @@ $nav-font:'Bungee Shade', cursive;
         border:2px solid $bro;
       }
 
-
 .mapContainer {
 	background-color:white;
+	margin-bottom:40px;
 	}
+
+h2.contactTitle {
+	font-size:40px;
+	text-align:center;
+	font-family:$nav-font;
+	color:darken($light-gray,20);
+	padding-top:20px;
+	margin:0;
+
+}

@@ -17,16 +17,17 @@ $green:#97FFD4;
 	border-bottom: 3px solid #FE5301;
 	.navMiddle{
 		.logo{
-			width: 150px;
+			width: 125px;
 			padding-top: 10px;
 			margin: 0 auto;
 			margin-left: -10px;
 			display: block;
+			padding-bottom:10px;
 		}
 		.background {
 			z-index: 999;
 			position: absolute;
-			margin-top: -90px;
+			margin-top: -79px;
 			margin-left: 15px;
 			font-family: 'Bungee', cursive;
 			color: darken($light-gray, 40);
@@ -35,7 +36,7 @@ $green:#97FFD4;
 		.foreground {
 			z-index: 1000;
 			position: absolute;
-			margin-top: -95px;
+			margin-top: -83px;
 			margin-left: 25px;
 			font-family: 'Bungee', cursive;
 			color: white;
@@ -45,15 +46,18 @@ $green:#97FFD4;
 }
 
 ul {
-	display:inline-block;
-	margin-bottom:0;
+	margin:0 auto;
+	display:block;
+	// display:inline-block;
+	// margin-bottom:0;
+	// padding-left:0;
 
 }
 
 li.navList {
 	display:inline-block;
 	text-align:center;
-	margin-top:105px;
+	margin-top:157px;
 
 		a {
 			font-family: $nav-font;
@@ -63,7 +67,7 @@ li.navList {
 			text-decoration: none;
 			text-align: center;
 			background-color:darken($light-gray,20);
-			padding:20px;
+			padding:13px;
 			border-radius:5px;
 
 			&:hover {
@@ -91,7 +95,6 @@ h1 {
 
 img.logoState {
 	display:block;
-	//margin-left:69px;
 	margin-top:-55px;
 	width:88px;
 	padding-bottom:19px;

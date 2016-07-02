@@ -3,102 +3,25 @@ $bro:#FE5301;
 $light-orange:#FFC996;
 $light-gray:#DCDCDC;
 $green:#97FFD4;
+$light-blue: #69D2E7;
 
 @import 'products';
-
 @import 'contact';
-
 @import 'blog';
-
 @import 'admin';
-
 @import 'about';
-
 @import 'weather';
-
 @import 'standardize';
+@import 'headerFooter';
 
-.header {
-	background-color: $light-gray;
-	border-bottom: 3px solid #FE5301;
-	.navMiddle{
-		.logo{
-			width: 125px;
-			padding-top: 10px;
-			margin: 0 auto;
-			margin-left: -10px;
-			display: block;
-			padding-bottom:10px;
-		}
-		.background {
-			z-index: 999;
-			position: absolute;
-			margin-top: -79px;
-			margin-left: 15px;
-			font-family: 'Bungee', cursive;
-			color: darken($light-gray, 40);
-
-		}
-		.foreground {
-			z-index: 1000;
-			position: absolute;
-			margin-top: -83px;
-			margin-left: 25px;
-			font-family: 'Bungee', cursive;
-			color: white;
-			opacity: .98;	
-		}
-	}
+body {
+		font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-size: 15px;
 }
 
-ul {
-	margin:0 auto;
-	display:block;
-	// display:inline-block;
-	// margin-bottom:0;
-	// padding-left:0;
-
+.sliderCol{
+	// background-image: url('http://agrigrowth.org/wp-content/uploads/Wood-Wallpaper-95.jpg');
 }
-
-li.navList {
-	display:inline-block;
-	text-align:center;
-	margin-top:157px;
-
-		a {
-			font-family: $nav-font;
-			font-size: 25px;
-			margin-right: 10px;
-			color:darken($light-gray,20);
-			text-decoration: none;
-			text-align: center;
-			background-color:$light-gray;
-			padding:13px;
-			border-radius:5px;
-
-			&:hover {
-				background-color:darken($light-gray,20);
-				color:#ffffff;
-			}
-		}
-}
-
-h1 {
-	font-family:$nav-font;
-	color:darken($light-gray,20);
-	display:inline-block;
-	font-size:50px;
-	text-align:center;
-}
-
-
-img.logoState {
-	display:block;
-	margin-top:-55px;
-	width:88px;
-	padding-bottom:19px;
-}
-
 img.boatImgs {
 	margin: 0 auto;
 	display:block;
@@ -215,7 +138,7 @@ img.boatImgs {
 
 		.blogTitle {
 			text-align: center;
-			font-family: 'Bungee Outline', cursive;
+			font-family: 'Bungee Shade', cursive;
 			color: white;
 			font-size: 30px;
 			font-weight: bold;
@@ -236,78 +159,19 @@ img.boatImgs {
 	}
 }
 
-.footer {
-	background-color: $light-gray;
-	border-top: 3px solid #FE5301;
-}	
-
-ul.footerItems {
-	margin:0 auto;
-	display:block;
-
-}
-
-li.footerNavList {
-	display:inline-block;
-	text-align:center;
-	margin:8px;
-
-		a {
-			font-family: $nav-font;
-			font-size: 20px;
-			margin-right: 10px;
-			color:darken($light-gray,20);
-			text-decoration: none;
-			text-align: center;
-			background-color:$light-gray;
-			&:hover {
-				background-color:darken($light-gray,20);
-				color:#ffffff;
-			}
-		}
-}
-
-ul.contactItems {
-	margin:0 auto;
-	display:block;
-	// display:inline-block;
-	// margin-bottom:0;
-	// padding-left:0;
-
-}
-
-li.contactList {
-	display:inline-block;
-	text-align:center;
-	margin:8px;
-
-		a {
-			//font-family: $nav-font;
-			font-size: 20px;
-			margin-right: 10px;
-			color:darken($light-gray,20);
-			text-decoration: none;
-			text-align: center;
-			background-color:$light-gray;
-		}
-}
-
 ul.cosList{
 	margin:0 auto;
-	display:block;
-
-}
-
-li.boatCosList {
-	display:inline-block;
-	text-align:center;
-	margin:20px;
-
-	img.coLogo {
-		width:150px;
-		
+	li.boatCosList {
+		display:inline-block;
+		text-align:center;
+		padding:20px;
+		margin-left: 4%;
+		img.coLogo {
+			width:150px;
+			
+		}
 	}
-}		
+}			
 
 .twitterFeed {
 	margin-top:85px;
@@ -324,4 +188,3 @@ li.boatCosList {
 	text-align: center;	
 	box-shadow: 10px 10px 5px #888888;
 }
-

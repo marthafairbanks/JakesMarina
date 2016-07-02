@@ -1,6 +1,7 @@
 $bro: "#FE5301";
 
 .rowBlog {
+	padding-top: 20px;
 	article {
 		background-color: rgba(253,112,68, .6);
 		width: 50%;
@@ -11,16 +12,15 @@ $bro: "#FE5301";
 		margin-bottom: 50px;
 		text-align: center;	
 		box-shadow: 10px 10px 5px #888888;
-	
 
 		.title {
 			text-align: center;
-			font-family: 'Bungee Outline', cursive;
+			font-family: 'Bungee Shade', cursive;
 			color: white;
 			font-size: 30px;
 			font-weight: bold;
 			padding-top: 10px;
-			padding-bottom: 5px;
+			padding-bottom: 20px;
 			
 		}
 		span{ 

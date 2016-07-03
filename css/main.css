@@ -1,7 +1,6 @@
 .boatRow {
   padding-top: 20px;
   padding-bottom: 20px;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 12px; }
   .boatRow .col-md-6 {
     margin-top: 30px; }
@@ -88,31 +87,33 @@ h2.contactTitle {
     color: #FE5301;
     font-size: 25px; }
 
-.rowBlog article {
-  background-color: rgba(253, 112, 68, 0.6);
-  width: 50%;
-  border-radius: 5px;
-  margin: 0 auto;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-bottom: 50px;
-  text-align: center;
-  box-shadow: 10px 10px 5px #888888; }
-  .rowBlog article .title {
+.rowBlog {
+  padding-top: 20px; }
+  .rowBlog article {
+    background-color: rgba(253, 112, 68, 0.6);
+    width: 50%;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 50px;
     text-align: center;
-    font-family: 'Bungee Outline', cursive;
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
-    padding-top: 10px;
-    padding-bottom: 5px; }
-  .rowBlog article span {
-    font-weight: bold; }
-  .rowBlog article p {
-    text-align: left;
-    padding: 5px;
-    padding-top: 5px;
-    font-weight: none; }
+    box-shadow: 10px 10px 5px #888888; }
+    .rowBlog article .title {
+      text-align: center;
+      font-family: 'Bungee Shade', cursive;
+      color: white;
+      font-size: 30px;
+      font-weight: bold;
+      padding-top: 10px;
+      padding-bottom: 20px; }
+    .rowBlog article span {
+      font-weight: bold; }
+    .rowBlog article p {
+      text-align: left;
+      padding: 5px;
+      padding-top: 5px;
+      font-weight: none; }
 
 .adminLogin {
   width: 25%;
@@ -708,65 +709,86 @@ img {
   box-sizing: border-box; }
 
 .header {
-  background-color: #DCDCDC;
-  border-bottom: 3px solid #FE5301; }
+  background-color: #69D2E7;
+  border: 5px solid #FE5301; }
+  .header li.navList {
+    display: inline-block;
+    text-align: center;
+    margin-top: 100px; }
+    .header li.navList a {
+      font-family: "Bungee Shade", cursive;
+      font-size: 25px;
+      margin-right: 10px;
+      color: #767676;
+      text-decoration: none;
+      text-align: center;
+      padding: 10px;
+      border-radius: 5px; }
+      .header li.navList a:hover {
+        background-color: #767676;
+        color: #ffffff;
+        box-shadow: 0px 0px 5px #ffffff; }
   .header .navMiddle .logo {
     width: 125px;
     padding-top: 10px;
     margin: 0 auto;
-    margin-left: -10px;
+    margin-left: -50px;
     display: block;
     padding-bottom: 10px; }
+  .header .navMiddle h1 {
+    font-family: "Bungee Shade", cursive;
+    color: darkgray;
+    display: inline-block;
+    font-size: 45px;
+    text-align: center; }
   .header .navMiddle .background {
     z-index: 999;
     position: absolute;
     margin-top: -79px;
-    margin-left: 15px;
+    margin-left: 10px;
     font-family: 'Bungee', cursive;
     color: #767676; }
   .header .navMiddle .foreground {
     z-index: 1000;
     position: absolute;
     margin-top: -83px;
-    margin-left: 25px;
+    margin-left: 15px;
     font-family: 'Bungee', cursive;
     color: white;
     opacity: .98; }
+  .header .navRight .navListRight {
+    float: right; }
 
-ul {
-  margin: 0 auto;
-  display: block; }
+.footer {
+  background-color: #69D2E7;
+  border: 5px solid #FE5301; }
+  .footer ul.footerItems {
+    margin: 0 auto;
+    display: block; }
+    .footer ul.footerItems li.footerNavList {
+      display: inline-block;
+      text-align: center;
+      margin: 8px; }
+      .footer ul.footerItems li.footerNavList a {
+        font-family: "Bungee Shade", cursive;
+        font-size: 20px;
+        margin-right: 10px;
+        color: #767676;
+        text-decoration: none; }
+        .footer ul.footerItems li.footerNavList a:hover {
+          background-color: #767676;
+          color: #ffffff;
+          box-shadow: 0px 0px 5px #ffffff; }
+  .footer ul.contactItems {
+    margin: 0 auto; }
+    .footer ul.contactItems li.contactList {
+      text-align: center;
+      margin: 5px;
+      font-size: 13px; }
 
-li.navList {
-  display: inline-block;
-  text-align: center;
-  margin-top: 157px; }
-  li.navList a {
-    font-family: "Bungee Shade", cursive;
-    font-size: 25px;
-    margin-right: 10px;
-    color: darkgray;
-    text-decoration: none;
-    text-align: center;
-    background-color: #DCDCDC;
-    padding: 13px;
-    border-radius: 5px; }
-    li.navList a:hover {
-      background-color: darkgray;
-      color: #ffffff; }
-
-h1 {
-  font-family: "Bungee Shade", cursive;
-  color: darkgray;
-  display: inline-block;
-  font-size: 50px;
-  text-align: center; }
-
-img.logoState {
-  display: block;
-  margin-top: -55px;
-  width: 88px;
-  padding-bottom: 19px; }
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 15px; }
 
 img.boatImgs {
   margin: 0 auto;
@@ -859,7 +881,7 @@ img.boatImgs {
   box-shadow: 10px 10px 5px #888888; }
   .blogBox article .blogTitle {
     text-align: center;
-    font-family: 'Bungee Outline', cursive;
+    font-family: 'Bungee Shade', cursive;
     color: white;
     font-size: 30px;
     font-weight: bold;
@@ -873,56 +895,15 @@ img.boatImgs {
     padding-top: 5px;
     font-weight: none; }
 
-.footer {
-  background-color: #DCDCDC;
-  border-top: 3px solid #FE5301; }
-
-ul.footerItems {
-  margin: 0 auto;
-  display: block; }
-
-li.footerNavList {
-  display: inline-block;
-  text-align: center;
-  margin: 8px; }
-  li.footerNavList a {
-    font-family: "Bungee Shade", cursive;
-    font-size: 20px;
-    margin-right: 10px;
-    color: darkgray;
-    text-decoration: none;
-    text-align: center;
-    background-color: #DCDCDC; }
-    li.footerNavList a:hover {
-      background-color: darkgray;
-      color: #ffffff; }
-
-ul.contactItems {
-  margin: 0 auto;
-  display: block; }
-
-li.contactList {
-  display: inline-block;
-  text-align: center;
-  margin: 8px; }
-  li.contactList a {
-    font-size: 20px;
-    margin-right: 10px;
-    color: darkgray;
-    text-decoration: none;
-    text-align: center;
-    background-color: #DCDCDC; }
-
 ul.cosList {
-  margin: 0 auto;
-  display: block; }
-
-li.boatCosList {
-  display: inline-block;
-  text-align: center;
-  margin: 20px; }
-  li.boatCosList img.coLogo {
-    width: 150px; }
+  margin: 0 auto; }
+  ul.cosList li.boatCosList {
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    margin-left: 4%; }
+    ul.cosList li.boatCosList img.coLogo {
+      width: 150px; }
 
 .twitterFeed {
   margin-top: 85px; }

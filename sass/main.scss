@@ -18,6 +18,8 @@ $article-font:'Josefin Sans', sans-serif;;
 body {
 		font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 		font-size: 15px;
+		background: url('http://i2.istockimg.com/file_thumbview_approve/22280947/5/stock-illustration-22280947-nautical-rope-seamless-pattern.jpg');
+		background-repeat: none;
 }
 
 .sliderCol{
@@ -164,26 +166,30 @@ img.boatImgs {
 			padding-top: 5px;
 			font-weight: none;
 			font-family: $article-font;
-			font-size: 15px;
+			font-size: 16px;
 
 		}
 	}
 }
 
-ul.cosList{
+.boatCos {
 	margin:0 auto;
+	display:block;
+}
+ul.cosList{
+	margin: 0 auto;
+	display: block;
+
 	li.boatCosList {
 		display:inline-block;
 		text-align:center;
 		padding:20px;
 		margin-left: 4%;
 		img.coLogo {
-			width:150px;
-			
+			width:150px;			
 		}
 	}
 }			
-
 .twitterFeed {
 	margin-top:85px;
 	padding-top:25px;
@@ -201,7 +207,6 @@ ul.cosList{
 	box-shadow: 10px 10px 5px #888888;
 
 }
-
 
 li.weatherImg {
 	img.weathericon {

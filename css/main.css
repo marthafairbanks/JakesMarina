@@ -790,7 +790,9 @@ img {
 
 body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 15px; }
+  font-size: 15px;
+  background: url("http://i2.istockimg.com/file_thumbview_approve/22280947/5/stock-illustration-22280947-nautical-rope-seamless-pattern.jpg");
+  background-repeat: none; }
 
 img.boatImgs {
   margin: 0 auto;
@@ -901,10 +903,15 @@ img.boatImgs {
     padding-top: 5px;
     font-weight: none;
     font-family: "Josefin Sans", sans-serif;
-    font-size: 15px; }
+    font-size: 16px; }
+
+.boatCos {
+  margin: 0 auto;
+  display: block; }
 
 ul.cosList {
-  margin: 0 auto; }
+  margin: 0 auto;
+  display: block; }
   ul.cosList li.boatCosList {
     display: inline-block;
     text-align: center;

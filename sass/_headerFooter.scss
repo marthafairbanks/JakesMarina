@@ -93,10 +93,13 @@ $light-blue: #69D2E7;
 	}	
 	ul.contactItems {
 		margin:0 auto;
+
 		li.contactList {
 			text-align:center;
 			margin:5px;
 			font-size: 13px;
+			font-family: $article-font;
+
 		}
 	}
 }		

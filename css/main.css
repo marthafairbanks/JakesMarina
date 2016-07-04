@@ -786,13 +786,11 @@ img {
     .footer ul.contactItems li.contactList {
       text-align: center;
       margin: 5px;
-      font-size: 13px; }
+      font-size: 13px;
+      font-family: "Josefin Sans", sans-serif; }
 
 body {
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 15px;
-  background: url("http://i2.istockimg.com/file_thumbview_approve/22280947/5/stock-illustration-22280947-nautical-rope-seamless-pattern.jpg");
-  background-repeat: none; }
+  background: url("http://st.houzz.com/simgs/1ad1ca810e765015_4-4748/traditional-wallpaper.jpg"); }
 
 img.boatImgs {
   margin: 0 auto;
@@ -842,7 +840,8 @@ img.boatImgs {
     left: 0;
     top: 0;
     height: 400px;
-    width: 400px; }
+    width: 400px;
+    box-shadow: 10px 10px 5px #888888; }
   #circleslider3 .thumb {
     background: url(http://www.select-salmon.gr/userfiles/image/compass.png) no-repeat 50% 50%;
     position: absolute;
@@ -935,5 +934,12 @@ ul.cosList {
   text-align: center;
   box-shadow: 10px 10px 5px #888888; }
 
+h4.weatherTempTitle {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  text-align: center; }
+
 li.weatherImg img.weathericon {
-  width: 80px; }
+  width: 80px;
+  margin: 0 auto;
+  display: block; }

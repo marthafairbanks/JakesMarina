@@ -16,10 +16,7 @@ $article-font:'Josefin Sans', sans-serif;;
 @import 'headerFooter';
 
 body {
-		font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-		font-size: 15px;
-		background: url('http://i2.istockimg.com/file_thumbview_approve/22280947/5/stock-illustration-22280947-nautical-rope-seamless-pattern.jpg');
-		background-repeat: none;
+	background: url('http://st.houzz.com/simgs/1ad1ca810e765015_4-4748/traditional-wallpaper.jpg');
 	}
 
 .sliderCol{
@@ -40,6 +37,7 @@ img.boatImgs {
 	width:500px;
 	display:block;
 	margin:0 auto;
+
 }
 
 #circleslider3 { 
@@ -50,6 +48,7 @@ img.boatImgs {
 	margin:0 auto;
 	display:block;
 	margin-top:60px;
+	
 
 	.viewport{ 
 		height:350px; 
@@ -86,6 +85,7 @@ img.boatImgs {
 				top: 0; 
 				height:400px; 
 				width:400px;
+				box-shadow: 10px 10px 5px #888888;
 			}
 
 				.thumb { 
@@ -208,9 +208,18 @@ ul.cosList{
 
 }
 
+h4.weatherTempTitle {
+	font-family: $article-font;
+	font-size: 18px;
+	text-align:center;
+}
+
 li.weatherImg {
+	
 	img.weathericon {
 	width:80px;
+	margin: 0 auto;
+	display:block;
 }
 }
 

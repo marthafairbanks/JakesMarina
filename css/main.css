@@ -182,7 +182,9 @@ body {
   height: 208px;
   margin: auto;
   border-radius: 10px;
-  background-color: #fe9e81;
+  background-color: #69D2E7;
+  margin-top: 425px;
+  margin-bottom: 25px;
   box-shadow: 10px 10px 5px #888888; }
 
 .dropicon {
@@ -870,8 +872,8 @@ img.boatImgs {
   margin-top: 85px; }
 
 .blogBox article {
-  background-color: rgba(253, 112, 68, 0.6);
-  width: 400px;
+  background-color: #69D2E7;
+  width: 450px;
   border-radius: 5px;
   margin: 0 auto;
   padding-left: 10px;
@@ -889,11 +891,17 @@ img.boatImgs {
     padding-bottom: 5px; }
   .blogBox article span {
     font-weight: bold; }
+  .blogBox article h3 {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    font-size: 18px; }
   .blogBox article p {
     text-align: left;
     padding: 5px;
     padding-top: 5px;
-    font-weight: none; }
+    font-weight: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 15px; }
 
 ul.cosList {
   margin: 0 auto; }
@@ -906,7 +914,8 @@ ul.cosList {
       width: 150px; }
 
 .twitterFeed {
-  margin-top: 85px; }
+  margin-top: 85px;
+  padding-top: 25px; }
 
 .twitterBox {
   width: 400px;

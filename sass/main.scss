@@ -4,6 +4,7 @@ $light-orange:#FFC996;
 $light-gray:#DCDCDC;
 $green:#97FFD4;
 $light-blue: #69D2E7;
+$article-font:'Josefin Sans', sans-serif;;
 
 @import 'products';
 @import 'contact';
@@ -20,8 +21,11 @@ body {
 }
 
 .sliderCol{
-	// background-image: url('http://agrigrowth.org/wp-content/uploads/Wood-Wallpaper-95.jpg');
+	//background-image: url('http://agrigrowth.org/wp-content/uploads/Wood-Wallpaper-95.jpg');
+	//background-color:rgba(253,112,68, .6)
+
 }
+
 img.boatImgs {
 	margin: 0 auto;
 	display:block;
@@ -125,8 +129,8 @@ img.boatImgs {
 .blogBox {
 
 	article {
-		background-color: rgba(253,112,68, .6);
-		width: 400px;
+		background-color: $light-blue;
+		width: 450px;
 		border-radius: 5px;
 		margin: 0 auto;
 		padding-left: 10px;
@@ -149,11 +153,18 @@ img.boatImgs {
 		span{ 
 			font-weight: bold;
 		}
+		h3 {
+			font-family: $article-font;
+			font-weight: bold;
+			font-size: 18px;
+		}
 		p {
 			text-align: left;
 			padding: 5px;
 			padding-top: 5px;
 			font-weight: none;
+			font-family: $article-font;
+			font-size: 15px;
 
 		}
 	}
@@ -175,6 +186,7 @@ ul.cosList{
 
 .twitterFeed {
 	margin-top:85px;
+	padding-top:25px;
 }
 
 .twitterBox {
@@ -187,6 +199,7 @@ ul.cosList{
 	margin-bottom: 50px;
 	text-align: center;	
 	box-shadow: 10px 10px 5px #888888;
+
 }
 
 

@@ -85,6 +85,8 @@ $bro:#FE5301;
   line-height: 1.38;
   text-align: center;
   color: #ffffff;
+  font-family: $article-font;
+
 }
 
 .info_bg {
@@ -110,6 +112,7 @@ p.location {
   line-height: 1.38;
   text-transform: uppercase;
   color: rgb(255, 255, 255);
+  font-family: $article-font;
 }
 
 .temperature {
@@ -123,6 +126,8 @@ p.location {
   font-weight: 700;
   line-height: 1.38;
   color: rgb(255, 255, 255);
+  font-family: $article-font;
+  text-align: center;
 }
 
 .windicon {
@@ -146,6 +151,7 @@ p.location {
   line-height: 1.38;
   text-align: center;
   color: #ffffff;
+  font-family: $article-font;
 }
 
 .windspeed p {

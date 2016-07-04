@@ -219,7 +219,8 @@ body {
   font-size: 1em;
   line-height: 1.38;
   text-align: center;
-  color: #ffffff; }
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif; }
 
 .info_bg {
   position: absolute;
@@ -242,7 +243,8 @@ p.location {
   font-weight: 400;
   line-height: 1.38;
   text-transform: uppercase;
-  color: white; }
+  color: white;
+  font-family: "Josefin Sans", sans-serif; }
 
 .temperature {
   position: absolute;
@@ -254,7 +256,9 @@ p.location {
   font-size: 4.25em;
   font-weight: 700;
   line-height: 1.38;
-  color: white; }
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center; }
 
 .windicon {
   display: block;
@@ -275,7 +279,8 @@ p.location {
   font-size: 1em;
   line-height: 1.38;
   text-align: center;
-  color: #ffffff; }
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif; }
 
 .windspeed p {
   margin-bottom: -.2em; }
@@ -765,12 +770,10 @@ img {
   background-color: #69D2E7;
   border: 5px solid #FE5301; }
   .footer ul.footerItems {
-    margin: 0 auto;
-    display: block; }
+    text-align: center; }
     .footer ul.footerItems li.footerNavList {
       display: inline-block;
-      text-align: center;
-      margin: 8px; }
+      margin-top: 38px; }
       .footer ul.footerItems li.footerNavList a {
         font-family: "Bungee Shade", cursive;
         font-size: 20px;
@@ -780,17 +783,19 @@ img {
         .footer ul.footerItems li.footerNavList a:hover {
           background-color: #767676;
           color: #ffffff;
-          box-shadow: 0px 0px 5px #ffffff; }
+          box-shadow: 0px 0px 5px #ffffff;
+          padding: 5px;
+          border-radius: 5px; }
   .footer ul.contactItems {
     margin: 0 auto; }
     .footer ul.contactItems li.contactList {
       text-align: center;
       margin: 5px;
-      font-size: 13px;
+      font-size: 15px;
       font-family: "Josefin Sans", sans-serif; }
 
 body {
-  background: url("http://st.houzz.com/simgs/1ad1ca810e765015_4-4748/traditional-wallpaper.jpg"); }
+  background: url("../images/boatBackground.png"); }
 
 img.boatImgs {
   margin: 0 auto;
@@ -904,20 +909,14 @@ img.boatImgs {
     font-family: "Josefin Sans", sans-serif;
     font-size: 16px; }
 
-.boatCos {
-  margin: 0 auto;
-  display: block; }
+img.coLogo {
+  width: 150px;
+  float: right;
+  margin-right: 6px; }
 
-ul.cosList {
-  margin: 0 auto;
-  display: block; }
-  ul.cosList li.boatCosList {
-    display: inline-block;
-    text-align: center;
-    padding: 20px;
-    margin-left: 4%; }
-    ul.cosList li.boatCosList img.coLogo {
-      width: 150px; }
+img.coLogo.sabre {
+  height: 45px;
+  width: 122px; }
 
 .twitterFeed {
   margin-top: 85px;
@@ -937,9 +936,19 @@ ul.cosList {
 h4.weatherTempTitle {
   font-family: "Josefin Sans", sans-serif;
   font-size: 18px;
-  text-align: center; }
+  text-align: center;
+  margin-top: 26px; }
 
 li.weatherImg img.weathericon {
   width: 80px;
-  margin: 0 auto;
-  display: block; }
+  margin-left: 102px;
+  margin-top: 30px; }
+
+li.tempIcon {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 34px;
+  margin-left: 63px;
+  margin-top: 5px; }
+
+img {
+  width: 40px; }

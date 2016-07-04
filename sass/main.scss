@@ -16,14 +16,8 @@ $article-font:'Josefin Sans', sans-serif;;
 @import 'headerFooter';
 
 body {
-	background: url('http://st.houzz.com/simgs/1ad1ca810e765015_4-4748/traditional-wallpaper.jpg');
+	background: url('../images/boatBackground.png');
 	}
-
-.sliderCol{
-	//background-image: url('http://agrigrowth.org/wp-content/uploads/Wood-Wallpaper-95.jpg');
-	//background-color:rgba(253,112,68, .6)
-
-}
 
 img.boatImgs {
 	margin: 0 auto;
@@ -111,7 +105,6 @@ img.boatImgs {
 						color: #555; 
 						width: 22px; 
 						position: absolute; 
-						
 						z-index: 100;
 						margin-left: -14px !important;
 						margin-top: -6px !important;
@@ -172,24 +165,17 @@ img.boatImgs {
 	}
 }
 
-.boatCos {
-	margin:0 auto;
-	display:block;
+img.coLogo {
+	width:150px;
+	float:right;
+	margin-right:6px;
 }
-ul.cosList{
-	margin: 0 auto;
-	display: block;
 
-	li.boatCosList {
-		display:inline-block;
-		text-align:center;
-		padding:20px;
-		margin-left: 4%;
-		img.coLogo {
-			width:150px;			
-		}
+img.coLogo.sabre {
+		height:45px;
+		width:122px;
 	}
-}			
+			
 .twitterFeed {
 	margin-top:85px;
 	padding-top:25px;
@@ -212,14 +198,29 @@ h4.weatherTempTitle {
 	font-family: $article-font;
 	font-size: 18px;
 	text-align:center;
+	margin-top:26px;
 }
+
 
 li.weatherImg {
 	
 	img.weathericon {
 	width:80px;
-	margin: 0 auto;
-	display:block;
+	margin-left:102px;
+	margin-top:30px;
+
 }
 }
 
+li.tempIcon {
+	font-family: $article-font;
+	font-size:34px;
+	margin-left:63px;
+	margin-top:5px;
+}
+
+
+img {
+	width:40px;
+
+}

@@ -126,12 +126,12 @@ img.boatImgs {
 
 	article {
 		background-color: $light-blue;
-		width: 497px;
+		width: 90%;
 		border-radius: 5px;
 		margin: 0 auto;
 		padding-left: 10px;
 		padding-right: 10px;
-		margin-bottom: 50px;
+		margin-bottom: 10px;
 		text-align: center;	
 		box-shadow: 10px 10px 5px #888888;
 	
@@ -165,24 +165,13 @@ img.boatImgs {
 		}
 	}
 }
-
-img.coLogo {
-	width:150px;
-	float:right;
-	margin-right:6px;
-}
-
-img.coLogo.sabre {
-		height:45px;
-		width:122px;
-	}
 			
 .twitterFeed {
 	margin-top:85px;
 }
 
 .twitterBox {
-	width:497px;
+	width:85%;
 	background-color: $light-gray;
 	border-radius: 5px;
 	margin: 0 auto;
@@ -209,7 +198,7 @@ li.weatherImg {
 	margin-left:102px;
 	margin-top:30px;
 
-}
+	}
 }
 
 li.tempIcon {
@@ -222,5 +211,14 @@ li.tempIcon {
 
 img {
 	width:40px;
+}
+.socialMediaCos{
+	.socialLinks{
+		padding-left: 75px;
+	}
+}	
 
+.boatCos {
+	border-top: 5px solid #FE5301;
+	padding-top: 35px;
 }

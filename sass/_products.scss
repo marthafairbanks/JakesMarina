@@ -49,20 +49,56 @@ $light-blue: #69D2E7;
 			margin: 0px auto;
 			display: block;
 		}
-		.info {
- 	   		background-color: $light-blue;
-    		margin-top: -200px;
-    		padding: 20px;
-    		display: none;
-    		border: 2px solid #FE5301;
-    		p {
-    			font-size: 14px;
-    		}
-    	}
-			img:hover + div {
-    			display: block;
-    			cursor: pointer;
+		.bayliner {
+			.info {
+ 	   			background-color: $light-blue;
+    			margin-top: -175px;
+    			padding: 20px;
+    			display: none;
+    			border: 2px solid #FE5301;
 			}
-
+			img:hover + div {
+				display: block;
+			}
+		}
+		.stingray {
+			.info {
+ 	   			background-color: $light-blue;
+    			margin-top: -210px;
+    			padding: 20px;
+    			display: none;
+    			border: 2px solid #FE5301;
+			}
+			img:hover + div {
+				display: block;
+			}
+		}
+		.searay {
+			.info {
+ 	   			background-color: $light-blue;
+    			margin-top: -185px;
+    			padding: 20px;
+    			display: none;
+    			border: 2px solid #FE5301;
+			}
+			img:hover + div {
+				display: block;
+			}
+		}
+		.sabre {
+			.info {
+ 	   			background-color: $light-blue;
+    			margin-top: -225px;
+    			padding: 20px;
+    			display: none;
+    			border: 2px solid #FE5301;
+    			img {
+    				height: 40px;
+    			}
+			}
+			img:hover + div {
+				display: block;
+			}
+		}							
 	}	
 }		

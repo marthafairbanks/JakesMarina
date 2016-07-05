@@ -18,6 +18,7 @@ $article-font:'Josefin Sans', sans-serif;
 
 body {
 	background: url('../images/boatBackground3.png');
+	font-family: $article-font;
 	}
 
 img.boatImgs {
@@ -212,13 +213,9 @@ li.tempIcon {
 img {
 	width:40px;
 }
-.socialMediaCos{
-	.socialLinks{
-		padding-left: 75px;
-	}
-}	
+	
 
 .boatCos {
 	border-top: 5px solid #FE5301;
 	padding-top: 35px;
-}
+	}

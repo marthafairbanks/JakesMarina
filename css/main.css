@@ -91,7 +91,7 @@ h2.contactTitle {
   padding-top: 20px; }
   .rowBlog article {
     background-color: #69D2E7;
-    width: 50%;
+    width: 497px;
     border-radius: 5px;
     margin: 0 auto;
     padding-left: 10px;
@@ -804,27 +804,22 @@ img {
   position: absolute;
   width: 100px;
   height: 80px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  top: 100px;
+  right: 10px;
   cursor: pointer; }
   .navToggle .icon {
-    -webkit-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
     position: absolute;
     top: 40px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
+    right: 10px;
     width: 50px;
     height: 2px;
-    background-color: #333; }
+    background-color: #ffffff; }
     .navToggle .icon:before, .navToggle .icon:after {
-      -webkit-transition: all 0.25s ease-out;
+      transition: all 0.25s ease-out;
       position: absolute;
       width: 50px;
       height: 2px;
-      background-color: #333;
+      background-color: #ffffff;
       content: ''; }
     .navToggle .icon:before {
       top: -20px;
@@ -833,58 +828,54 @@ img {
       top: 20px;
       left: 0; }
   .navToggle:hover .icon {
-    background-color: #555; }
+    background-color: #909090; }
     .navToggle:hover .icon:before {
       top: -25px;
-      background-color: #555; }
+      background-color: #909090; }
     .navToggle:hover .icon:after {
       top: 25px;
-      background-color: #555; }
+      background-color: #909090; }
   .navToggle.open .icon {
-    -webkit-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
     background-color: transparent;
-    -webkit-transform: rotate(180deg); }
+    transform: rotate(180deg); }
     .navToggle.open .icon:before {
       top: 0;
-      -webkit-transform: rotate(45deg); }
+      transform: rotate(45deg); }
     .navToggle.open .icon:after {
       top: 0;
-      -webkit-transform: rotate(-45deg); }
+      transform: rotate(-45deg); }
 
 #menu {
   z-index: 1;
-  left: 0;
   right: 0;
-  top: 190px;
-  margin: 0 auto;
   position: absolute;
   width: 200px;
   height: 0px;
   overflow: hidden;
-  text-align: center;
+  text-align: left;
   border-bottom: 1px solid transparent;
-  -webkit-transition: all 0.5s; }
+  transition: all 0.5s; }
   #menu ul {
     list-style: none;
     padding: 0;
-    font-family: sans-serif;
-    font-size: 20px;
-    font-weight: 100;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 17px;
+    font-weight: bold;
     text-transform: uppercase; }
   #menu li:first-child {
-    margin-top: 0; }
+    margin-top: 5px; }
   #menu li {
-    margin: 30px 0;
+    margin: 14px 0;
     padding: 5px 0;
     cursor: pointer;
     letter-spacing: 0.5em;
     text-decoration: none;
-    -webkit-transition: all 0.25s; }
+    transition: all 0.25s; }
   #menu li:hover {
-    text-decoration: underline; }
+    text-decoration: none; }
   #menu.active {
-    height: 320px;
-    border-bottom: 1px solid black; }
+    height: 200px; }
 
 body {
   background: url("../images/boatBackground3.png"); }
@@ -947,7 +938,7 @@ img.boatImgs {
     width: 100px;
     z-index: 200;
     height: 100px;
-    margin-left: -31px !important;
+    margin-left: 43px !important;
     margin-top: -10px !important; }
   #circleslider3 .dot {
     cursor: pointer;
@@ -960,7 +951,7 @@ img.boatImgs {
     width: 22px;
     position: absolute;
     z-index: 100;
-    margin-left: -14px !important;
+    margin-left: 24px !important;
     margin-top: -6px !important; }
     #circleslider3 .dot span {
       display: none;

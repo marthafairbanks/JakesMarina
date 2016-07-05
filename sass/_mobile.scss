@@ -1,30 +1,27 @@
+$article-font:'Josefin Sans', sans-serif;
 
 .navToggle{
   z-index: 111;
   position: absolute;
   width: 100px;
   height: 80px;
-  left: 0;
-  right: 0;
-  top: 100px;
+  right: 10px;
   cursor: pointer;
   
   .icon{
-    -webkit-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
   	position: absolute;
   	top: 40px;
-  	left: 0;
-    right: 0;
-    //margin: 0 auto;
+    right: 10px;
   	width: 50px;
   	height: 2px;
-  	background-color: #333;
+  	background-color: #ffffff;
     &:before, &:after{
-      -webkit-transition: all 0.25s ease-out;
+      transition: all 0.25s ease-out;
       position: absolute;
       width: 50px;
       height: 2px;
-      background-color: #333;
+      background-color: #ffffff;
       content:'';
     }
   &:before{
@@ -39,29 +36,29 @@
   }
   &:hover{
     .icon{
-      background-color: #555;
+      background-color: darken($light-gray,30);
       &:before{
         top: -25px;
-        background-color: #555;
+        background-color: darken($light-gray,30);
       }
       &:after{
         top: 25px;
-        background-color:#555;
+        background-color:darken($light-gray,30);
       }
     }
   }
   &.open{
     .icon{
-      -webkit-transition: all 0.4s ease-out;
+      transition: all 0.4s ease-out;
       background-color: transparent;
-      -webkit-transform: rotate(180deg);
+      transform: rotate(180deg);
       &:before{
         top:0;
-        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
       }
       &:after{
         top:0;
-        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
       }
     }
   }
@@ -69,40 +66,39 @@
 
 #menu{
   z-index: 1;
-  left: 0;
   right: 0;
-  top: 190px;
   position: absolute;
   width: 200px;
   height: 0px;
   overflow: hidden;
-  text-align: center;
+  text-align: left;
   border-bottom: 1px solid transparent;
-  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
   & ul{
     list-style: none;
     padding: 0;
-    font-family: sans-serif;
-    font-size: 20px;
-    font-weight: 100;
+    font-family:$article-font;
+    font-size: 17px;
+    font-weight: bold;
     text-transform: uppercase;
+
   }
   & li:first-child{
-    margin-top: 0;
+    margin-top: 5px;
   }
   & li{
-    margin: 30px 0;
+    margin: 14px 0;
     padding: 5px 0;
     cursor: pointer;
     letter-spacing: 0.5em;
     text-decoration: none;
-    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
   }
   & li:hover{
-    text-decoration: underline;
+    text-decoration: none;
   }
   &.active{
-    height:320px;
-    border-bottom: 1px solid black;
+    height:200px;
+    //border-bottom: 2px solid $bro;
   }
 }

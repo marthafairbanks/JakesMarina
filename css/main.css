@@ -81,18 +81,28 @@
     display: block; }
 
 .rowContact {
-  background-color: white;
-  padding-top: 20px; }
+  background-color: transparent;
+  padding-top: 40px; }
+  .rowContact .contactBox {
+    margin-bottom: 40px; }
+    .rowContact .contactBox h2 {
+      font-size: 30px;
+      color: #767676;
+      margin-bottom: 10px;
+      padding-top: 10px; }
   .rowContact .emailForm {
-    background-color: white; }
+    background-color: transparent;
+    margin-top: 10px; }
     .rowContact .emailForm form {
       padding: 0px;
-      background-color: white; }
+      background-color: transparent; }
       .rowContact .emailForm form h2 {
         font-family: "Bungee Shade", cursive;
-        color: darkgray;
+        color: #767676;
         padding-top: 0px;
-        text-align: center; }
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 10px; }
       .rowContact .emailForm form .form-all {
         box-shadow: 10px 10px 5px #888888;
         border-radius: 5px;
@@ -104,13 +114,21 @@
           padding: none; }
           .rowContact .emailForm form .form-all ul.form-section .form-line .form-label {
             font-weight: normal;
-            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-family: "Josefin Sans", sans-serif;
+            font-size: 16px;
             margin-bottom: 0; }
+          .rowContact .emailForm form .form-all ul.form-section .form-line #id_2 {
+            font-family: "Josefin Sans", sans-serif; }
+
+.map {
+  padding-top: 40px; }
 
 .mapTitle {
   font-family: "Bungee Shade", cursive;
-  font-size: 40px;
-  color: darkgray; }
+  font-size: 30px;
+  color: #767676;
+  padding-top: 10px;
+  padding-bottom: 10px; }
 
 #map {
   width: 75%;
@@ -137,7 +155,8 @@ h2.contactTitle {
   padding-top: 20px; }
   .markerSpot i.fa, .cellSpot i.fa, .faxSpot i.fa, .emailSpot i.fa {
     color: #FE5301;
-    font-size: 25px; }
+    font-size: 25px;
+    padding-bottom: 10px; }
 
 .rowBlog {
   padding-top: 20px; }

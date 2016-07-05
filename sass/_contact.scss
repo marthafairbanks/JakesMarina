@@ -3,23 +3,35 @@ $nav-font:'Bungee Shade', cursive;
 
 
 .rowContact {
-	background-color: white;
-	padding-top:20px;
+	background-color: transparent;
+	padding-top: 40px;
+
 	.contactBox {
+		margin-bottom: 40px;
+		h2 {
+			font-size: 30px;
+			color: darken($light-gray, 40);
+			margin-bottom: 10px;
+			padding-top: 10px;
+		}
 	}
 	.emailForm {
-		background-color: white;
+		background-color: transparent;
+		margin-top: 10px;
 		form {
 			padding: 0px;
-			background-color: white;	
+			background-color: transparent;	
 			h2{
 				font-family: $nav-font;
-				color:darken($light-gray,20);
+				color:darken($light-gray,40);
 				padding-top: 0px;
 				text-align: center;
+				font-size: 30px;
+				margin-bottom: 10px;
 
 			}
 			.form-all {
+
 				box-shadow: 10px 10px 5px #888888;
 				border-radius: 5px;
 				border: 2px solid $bro;
@@ -33,7 +45,8 @@ $nav-font:'Bungee Shade', cursive;
 					.form-line {
 						.form-label {
 							font-weight: normal;
-							font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+							font-family: $article-font;
+							font-size: 16px;
 							margin-bottom: 0;
 						}
 						#id_4 { // name list
@@ -46,6 +59,7 @@ $nav-font:'Bungee Shade', cursive;
 
 						}
 						#id_2 { // button list
+							font-family: $article-font;
 						}
 					}	
 				}
@@ -53,11 +67,15 @@ $nav-font:'Bungee Shade', cursive;
 		}
 	}
 }
-
+.map {
+	padding-top: 40px;
+}
 .mapTitle {
 	font-family:$nav-font;
-	font-size:40px;
-	color:darken($light-gray,20);
+	font-size:30px;
+	color:darken($light-gray,40);
+	padding-top: 10px;
+	padding-bottom: 10px;
 
 }
  #map {
@@ -91,6 +109,7 @@ h2.contactTitle {
 	i.fa {
 		color:$bro;
 		font-size: 25px;
+		padding-bottom: 10px;
 	}
 }
 

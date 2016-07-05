@@ -1,7 +1,19 @@
+.storeRow .storeInfo p {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  background-color: #69D2E7;
+  padding-left: 20px;
+  padding-right: 1px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 60px;
+  font-size: 25px; }
+
 .boatRow {
   padding-top: 20px;
   padding-bottom: 20px;
-  font-size: 12px; }
+  font-size: 18px; }
   .boatRow .col-md-6 {
     margin-top: 30px; }
     .boatRow .col-md-6 .boatInfo {
@@ -32,12 +44,12 @@
   padding-top: 20px;
   padding-bottom: 20px; }
   .cosRow .boatCos img {
-    width: 65%;
+    width: 150px;
     margin: 0px auto;
     display: block; }
   .cosRow .boatCos .bayliner .info {
     background-color: #69D2E7;
-    margin-top: -175px;
+    margin-top: -190px;
     padding: 20px;
     display: none;
     border: 2px solid #FE5301; }
@@ -61,12 +73,10 @@
     display: block; }
   .cosRow .boatCos .sabre .info {
     background-color: #69D2E7;
-    margin-top: -225px;
+    margin-top: -200px;
     padding: 20px;
     display: none;
     border: 2px solid #FE5301; }
-    .cosRow .boatCos .sabre .info img {
-      height: 40px; }
   .cosRow .boatCos .sabre img:hover + div {
     display: block; }
 
@@ -184,11 +194,66 @@ h3 {
   text-align: left;
   color: red; }
 
-img.jakePic {
-  width: 100px; }
+.bioRow {
+  margin-top: 40px;
+  background-color: white;
+  opacity: .8; }
+  .bioRow h2 {
+    font-size: 40px;
+    font-family: "Bungee Shade", cursive;
+    text-align: center;
+    color: #767676;
+    padding-bottom: 30px; }
+  .bioRow .bioCol h2 {
+    font-size: 25px;
+    font-family: "Josefin Sans", sans-serif;
+    color: black;
+    text-align: left;
+    font-weight: bold; }
+  .bioRow .bioCol p {
+    font-size: 18px; }
+    .bioRow .bioCol p img {
+      width: 100px;
+      float: left;
+      padding-right: 15px; }
 
-img.jeffPic {
-  width: 100px; }
+.historyRow {
+  margin-top: 40px;
+  background-color: white;
+  opacity: .8; }
+  .historyRow h2 {
+    font-family: "Bungee Shade", cursive;
+    font-size: 40px;
+    text-align: center;
+    color: #767676;
+    padding-bottom: 30px; }
+  .historyRow p {
+    font-size: 18px;
+    padding-bottom: 10px; }
+    .historyRow p img {
+      width: 300px;
+      float: right;
+      padding-left: 15px;
+      padding-bottom: 5px; }
+
+.communityRow {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: white;
+  opacity: .8; }
+  .communityRow h2 {
+    font-family: "Bungee Shade", cursive;
+    font-size: 40px;
+    text-align: center;
+    color: #767676;
+    padding-bottom: 30px; }
+  .communityRow p {
+    font-size: 18px;
+    padding-bottom: 10px; }
+    .communityRow p img {
+      width: 300px;
+      float: left;
+      padding-right: 15px; }
 
 body {
   background-color: #bebebe;

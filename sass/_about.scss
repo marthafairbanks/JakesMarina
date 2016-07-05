@@ -1,8 +1,75 @@
-img.jakePic {
-	width:100px;
+.bioRow {
+	margin-top: 40px;
+	background-color: white;
+	opacity: .8;
+	h2 {
+		font-size: 40px;
+		font-family: $nav-font;
+		text-align: center;
+		color:darken($light-gray,40);
+		padding-bottom: 30px;
+	}
+	.bioCol {
+		h2 {
+			font-size: 25px;
+			font-family: $article-font;
+			color: black;
+			text-align: left;
+			font-weight: bold;	
+		}
+		p {
+			font-size: 18px;
+			img {
+				width: 100px;
+				float: left;
+				padding-right: 15px;
+			}
+		}
+	}
 }
 
-img.jeffPic {
-	width:100px;
+.historyRow {
+	margin-top: 40px;
+	background-color: white;
+	opacity: .8;
+	h2 {
+		font-family: $nav-font;
+		font-size: 40px;
+		text-align: center;
+		color: darken($light-gray, 40);
+		padding-bottom: 30px;
+	}
+	p {
+		font-size: 18px;
+		padding-bottom: 10px;
+		img {
+			width: 300px;
+			float: right;
+			padding-left: 15px;
+			padding-bottom: 5px;
+		}
+	}
 }
 
+.communityRow {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	background-color: white;
+	opacity: .8;	
+	h2 {
+		font-family: $nav-font;
+		font-size: 40px;
+		text-align: center;
+		color: darken($light-gray, 40);
+		padding-bottom: 30px;	
+	}
+	p {
+		font-size: 18px;
+		padding-bottom: 10px;
+		img {
+			width: 300px;
+			float: left;
+			padding-right: 15px;
+		}
+	}
+}

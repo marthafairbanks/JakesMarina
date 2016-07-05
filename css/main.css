@@ -198,8 +198,14 @@ body {
 .info_bg p {
   margin-bottom: -.2em; }
 
+ul.infoList {
+  display: inline-block; }
+  ul.infoList li {
+    display: inline-block; }
+
 .climate_bg {
-  position: absolute;
+  margin-left: 220px;
+  margin-top: -187px;
   top: 0;
   left: 235px;
   z-index: 6;
@@ -210,7 +216,6 @@ body {
 
 .weathericon {
   display: block;
-  position: absolute;
   top: -5px;
   left: 1.226993865%;
   z-index: 5;
@@ -219,7 +224,6 @@ body {
   overflow: hidden; }
 
 .container {
-  position: absolute;
   top: -33px;
   bottom: 0;
   left: 0;
@@ -230,13 +234,12 @@ body {
   margin: auto;
   border-radius: 10px;
   background-color: #69D2E7;
-  margin-top: 425px;
+  margin-top: 35px;
   margin-bottom: 25px;
   box-shadow: 10px 10px 5px #888888; }
 
 .dropicon {
   display: block;
-  position: absolute;
   top: 9px;
   left: -3.9110429448%;
   z-index: 3;
@@ -245,7 +248,6 @@ body {
   overflow: hidden; }
 
 .not-available, .failed {
-  position: absolute;
   top: 464px;
   left: 0;
   right: 0;
@@ -257,7 +259,6 @@ body {
   color: black; }
 
 .humidity {
-  position: absolute;
   top: 19px;
   left: 29px;
   z-index: 2;
@@ -270,7 +271,7 @@ body {
   font-family: "Josefin Sans", sans-serif; }
 
 .info_bg {
-  position: absolute;
+  margin-left: 220px;
   top: 149px;
   left: 235px;
   z-index: 4;
@@ -280,7 +281,7 @@ body {
   background-color: #FE5301; }
 
 p.location {
-  position: absolute;
+  margin-left: 42px;
   top: 128px;
   left: 63px;
   z-index: 8;
@@ -294,11 +295,11 @@ p.location {
   font-family: "Josefin Sans", sans-serif; }
 
 .temperature {
-  position: absolute;
+  padding-top: 34px;
   top: 38px;
   left: 72px;
   z-index: 7;
-  width: 109px;
+  width: 212px;
   min-height: 28px;
   font-size: 4.25em;
   font-weight: 700;
@@ -309,7 +310,6 @@ p.location {
 
 .windicon {
   display: block;
-  position: absolute;
   top: 5px;
   left: 43.1173312883%;
   z-index: 1;
@@ -318,7 +318,6 @@ p.location {
   overflow: hidden; }
 
 .windspeed {
-  position: absolute;
   top: 9px;
   left: 109px;
   width: 50px;

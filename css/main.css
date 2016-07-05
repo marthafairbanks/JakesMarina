@@ -90,12 +90,13 @@ h2.contactTitle {
 .rowBlog {
   padding-top: 20px; }
   .rowBlog article {
-    background-color: rgba(253, 112, 68, 0.6);
+    background-color: #69D2E7;
     width: 50%;
     border-radius: 5px;
     margin: 0 auto;
     padding-left: 10px;
     padding-right: 10px;
+    margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
     box-shadow: 10px 10px 5px #888888; }
@@ -108,12 +109,16 @@ h2.contactTitle {
       padding-top: 10px;
       padding-bottom: 20px; }
     .rowBlog article span {
-      font-weight: bold; }
+      font-weight: bold;
+      font-family: "Josefin Sans", sans-serif;
+      font-size: 18px; }
     .rowBlog article p {
       text-align: left;
       padding: 5px;
       padding-top: 5px;
-      font-weight: none; }
+      font-weight: none;
+      font-family: "Josefin Sans", sans-serif;
+      font-size: 16px; }
 
 .adminLogin {
   width: 25%;
@@ -795,7 +800,7 @@ img {
       font-family: "Josefin Sans", sans-serif; }
 
 body {
-  background: url("../images/boatBackground.png"); }
+  background: url("../images/boatBackground3.png"); }
 
 img.boatImgs {
   margin: 0 auto;
@@ -879,7 +884,7 @@ img.boatImgs {
 
 .blogBox article {
   background-color: #69D2E7;
-  width: 450px;
+  width: 497px;
   border-radius: 5px;
   margin: 0 auto;
   padding-left: 10px;
@@ -919,11 +924,10 @@ img.coLogo.sabre {
   width: 122px; }
 
 .twitterFeed {
-  margin-top: 85px;
-  padding-top: 25px; }
+  margin-top: 85px; }
 
 .twitterBox {
-  width: 400px;
+  width: 497px;
   background-color: #DCDCDC;
   border-radius: 5px;
   margin: 0 auto;

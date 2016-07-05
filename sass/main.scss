@@ -16,7 +16,7 @@ $article-font:'Josefin Sans', sans-serif;;
 @import 'headerFooter';
 
 body {
-	background: url('../images/boatBackground.png');
+	background: url('../images/boatBackground3.png');
 	}
 
 img.boatImgs {
@@ -125,7 +125,7 @@ img.boatImgs {
 
 	article {
 		background-color: $light-blue;
-		width: 450px;
+		width: 497px;
 		border-radius: 5px;
 		margin: 0 auto;
 		padding-left: 10px;
@@ -178,11 +178,10 @@ img.coLogo.sabre {
 			
 .twitterFeed {
 	margin-top:85px;
-	padding-top:25px;
 }
 
 .twitterBox {
-	width:400px;
+	width:497px;
 	background-color: $light-gray;
 	border-radius: 5px;
 	margin: 0 auto;

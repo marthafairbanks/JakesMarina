@@ -3,12 +3,13 @@ $bro: "#FE5301";
 .rowBlog {
 	padding-top: 20px;
 	article {
-		background-color: rgba(253,112,68, .6);
+		background-color:$light-blue;
 		width: 50%;
 		border-radius: 5px;
 		margin: 0 auto;
 		padding-left: 10px;
 		padding-right: 10px;
+		margin-top: 50px;
 		margin-bottom: 50px;
 		text-align: center;	
 		box-shadow: 10px 10px 5px #888888;
@@ -25,12 +26,16 @@ $bro: "#FE5301";
 		}
 		span{ 
 			font-weight: bold;
+			font-family: $article-font;
+			font-size: 18px;
 		}
 		p {
 			text-align: left;
 			padding: 5px;
 			padding-top: 5px;
 			font-weight: none;
+			font-family: $article-font;
+			font-size:16px;
 
 		}
 	}

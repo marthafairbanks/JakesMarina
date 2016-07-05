@@ -43,42 +43,44 @@
 .cosRow {
   padding-top: 20px;
   padding-bottom: 20px; }
-  .cosRow .boatCos img {
-    width: 150px;
-    margin: 0px auto;
-    display: block; }
-  .cosRow .boatCos .bayliner .info {
-    background-color: #69D2E7;
-    margin-top: -190px;
-    padding: 20px;
-    display: none;
-    border: 2px solid #FE5301; }
-  .cosRow .boatCos .bayliner img:hover + div {
-    display: block; }
-  .cosRow .boatCos .stingray .info {
-    background-color: #69D2E7;
-    margin-top: -210px;
-    padding: 20px;
-    display: none;
-    border: 2px solid #FE5301; }
-  .cosRow .boatCos .stingray img:hover + div {
-    display: block; }
-  .cosRow .boatCos .searay .info {
-    background-color: #69D2E7;
-    margin-top: -185px;
-    padding: 20px;
-    display: none;
-    border: 2px solid #FE5301; }
-  .cosRow .boatCos .searay img:hover + div {
-    display: block; }
-  .cosRow .boatCos .sabre .info {
-    background-color: #69D2E7;
-    margin-top: -200px;
-    padding: 20px;
-    display: none;
-    border: 2px solid #FE5301; }
-  .cosRow .boatCos .sabre img:hover + div {
-    display: block; }
+  .cosRow .boatCos {
+    border-top: 5px solid #FE5301; }
+    .cosRow .boatCos img {
+      width: 150px;
+      margin: 0px auto;
+      display: block; }
+    .cosRow .boatCos .bayliner .info {
+      background-color: #69D2E7;
+      margin-top: -190px;
+      padding: 20px;
+      display: none;
+      border: 2px solid #FE5301; }
+    .cosRow .boatCos .bayliner img:hover + div {
+      display: block; }
+    .cosRow .boatCos .stingray .info {
+      background-color: #69D2E7;
+      margin-top: -210px;
+      padding: 20px;
+      display: none;
+      border: 2px solid #FE5301; }
+    .cosRow .boatCos .stingray img:hover + div {
+      display: block; }
+    .cosRow .boatCos .searay .info {
+      background-color: #69D2E7;
+      margin-top: -185px;
+      padding: 20px;
+      display: none;
+      border: 2px solid #FE5301; }
+    .cosRow .boatCos .searay img:hover + div {
+      display: block; }
+    .cosRow .boatCos .sabre .info {
+      background-color: #69D2E7;
+      margin-top: -200px;
+      padding: 20px;
+      display: none;
+      border: 2px solid #FE5301; }
+    .cosRow .boatCos .sabre img:hover + div {
+      display: block; }
 
 .rowContact {
   background-color: transparent;
@@ -343,6 +345,7 @@ ul.infoList {
   color: black; }
 
 .humidity {
+  margin-left: -16px;
   top: 19px;
   left: 29px;
   z-index: 2;
@@ -394,6 +397,7 @@ p.location {
 
 .windicon {
   display: block;
+  margin-left: -6px;
   top: 5px;
   left: 43.1173312883%;
   z-index: 1;
@@ -402,6 +406,9 @@ p.location {
   overflow: hidden; }
 
 .windspeed {
+  display: inline-block;
+  margin-top: -50px;
+  vertical-align: top;
   top: 9px;
   left: 109px;
   width: 50px;
@@ -410,7 +417,8 @@ p.location {
   line-height: 1.38;
   text-align: center;
   color: #ffffff;
-  font-family: "Josefin Sans", sans-serif; }
+  font-family: "Josefin Sans", sans-serif;
+  margin-left: 105px; }
 
 .windspeed p {
   margin-bottom: -.2em; }
@@ -1138,22 +1146,29 @@ h4.weatherTempTitle {
   font-family: "Josefin Sans", sans-serif;
   font-size: 18px;
   text-align: center;
-  margin-top: 26px; }
+  margin-top: 2px; }
 
 li.weatherImg img.weathericon {
   width: 80px;
-  margin-left: 102px;
-  margin-top: 30px; }
+  margin-left: 86px;
+  margin-top: -16px; }
 
 li.tempIcon {
   font-family: "Josefin Sans", sans-serif;
   font-size: 34px;
   margin-left: 63px;
-  margin-top: 5px; }
+  margin-top: -55px; }
 
 img {
   width: 40px; }
 
-.boatCos {
-  border-top: 5px solid #FE5301;
-  padding-top: 35px; }
+.boatCosOne {
+  margin: 0 auto;
+  display: block; }
+  .boatCosOne img.coLogoOne {
+    width: 150px;
+    float: right;
+    margin-right: 6px; }
+  .boatCosOne img.coLogoOne.sabre {
+    height: 45px;
+    width: 122px; }

@@ -83,7 +83,7 @@ ul.infoList {
 }
 
 .humidity {
-
+  margin-left:-16px;
   top: 19px;
   left: 29px;
   z-index: 2;
@@ -94,7 +94,6 @@ ul.infoList {
   text-align: center;
   color: #ffffff;
   font-family: $article-font;
-
 }
 
 .info_bg {
@@ -140,7 +139,7 @@ p.location {
 
 .windicon {
   display: block;
-  
+  margin-left: -6px;
   top: 5px;
   left: 43.1173312883%;
   z-index: 1;
@@ -150,7 +149,9 @@ p.location {
 }
 
 .windspeed {
-  
+  display:inline-block;
+  margin-top: -50px;
+  vertical-align: top;
   top: 9px;
   left: 109px;
   width: 50px;
@@ -160,6 +161,7 @@ p.location {
   text-align: center;
   color: #ffffff;
   font-family: $article-font;
+  margin-left: 105px;
 }
 
 .windspeed p {

@@ -21,6 +21,7 @@
 	<body>
 
 		<div class="container-fluid">
+
 			<div class="header row">
 				
 					<div class="col-md-5 navLeft hidden-sm hidden-xs">
@@ -29,7 +30,7 @@
   							<li class="navList"><a href="about.html">About</a></li>
 						</ul>
 					</div>
-					<div class="col-md-2 navMiddle">
+					<div class="col-md-2 col-sm-12 navMiddle">
 							<a href="index.html"><img class="logo" src="images/boatingMarkerIndiana2.png"><h1 class = "background">Jake's Marina</h1> <h1 class ="foreground">Jake's Marina</h1></a>
 					</div>
 					<div class="col-md-5 navRight hidden-sm hidden-xs">
@@ -40,8 +41,24 @@
 					</div>
 			</div>
 
+				<div class="col-xs-12 show-sm show-xs hidden-lg hidden-md mobileMenu">
+        			<div id="mobileDrop">
+  						<div class="navToggle"><div class="icon"></div></div>
+ 							<div id="menu"><ul>
+    							<li><a href="index.html">Home</a></li>
+    							<li><a href="products.html">Product</a></li>
+							    <li><a href="about.html">About</a></li>
+							    <li><a href="blog.html">Blog</a></li>
+							    <li><a href="contact.html">Contact</a></li>
+							</ul>
+							</div>
+
+					</div>
+      			</div>
+
 			<div class="sliderRow row">
-				<div class="col-sm-12 sliderCol">
+
+				<div class="col-md-12 sliderCol">
 					<div class="sliderMain">
 					<div id="circleslider3">
   						<div class="viewport">
@@ -56,6 +73,8 @@
 					</div>
 					</div>
 				</div>
+
+	
 			</div>	
 
 			<div class="blogTwitter row">
@@ -87,16 +106,19 @@
 				</div>
 			</div>
 
-			<div class="cos row">
-				<div class="col-sm-12 boatCos">
-					<ul class="cosList">
-						<li class="boatCosList"><img class="coLogo" src="http://bayliner.com/wp-content/themes/bayliner/library/images/mobile/logo.png"></li>
-						<li class="boatCosList"><img class="coLogo" src="http://www.whittleboats.com/images/content/stingray_logo.jpg"></li>
-						<li class="boatCosList"><img class="coLogo" src="http://www.denisonyachtsales.com/images/brand-landing-page/logos/sea-ray-logo.png"></li>
-						<li class="boatCosList"><img class="coLogo" src="http://www.yachtworld.com/dimillosyachts/images/e251410.jpg"></li>
-					</ul>
-				</div>	
-			</div>
+			<div class="socialMediaCos row">
+				<div class="col-md-3 socialLinks">
+					<a class="fcbkLin" href="https://www.facebook.com/BrookvilleLake/"><img src="https://mdsmed.co.il/files/images/facebook_logo.png"></a>
+					<a class="tweetLink" href="https://twitter.com/search?q=%23brookvillelake&ref_src=twsrc%5Etfw"><img src="http://www.aoml.noaa.gov/hrd/pix/social/Twitter-logo.png"></a>
+				</div>
+
+				<div class="col-md-9 boatCos">
+					<img class="coLogo" src="http://bayliner.com/wp-content/themes/bayliner/library/images/mobile/logo.png">
+					<img class="coLogo" src="http://www.whittleboats.com/images/content/stingray_logo.jpg">
+					<img class="coLogo sabre" src="http://www.ccyachtsales.com/components/sabre_yachts.png">
+					<img class="coLogo" src="http://www.denisonyachtsales.com/images/brand-landing-page/logos/sea-ray-logo.png">
+				</div>
+			</div>	
 
 			<div class="footer row">
 
@@ -141,9 +163,10 @@
 		<script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		<script src = "js/moment.js"></script>
 		<script src = "js/slider.js"></script>
+		<script src = "js/mobile.js"></script>
 		<script src="bower_components/simpleWeather/jquery.simpleWeather.js"></script>
-				<script src = "js/weather.js"></script>
-				<script src = "js/icons.js"></script>
+		<script src = "js/weather.js"></script>
+		<script src = "js/icons.js"></script>
 		<script src = "js/main.js"></script>
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

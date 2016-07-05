@@ -109,12 +109,13 @@ h2.contactTitle {
 .rowBlog {
   padding-top: 20px; }
   .rowBlog article {
-    background-color: rgba(253, 112, 68, 0.6);
+    background-color: #69D2E7;
     width: 50%;
     border-radius: 5px;
     margin: 0 auto;
     padding-left: 10px;
     padding-right: 10px;
+    margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
     box-shadow: 10px 10px 5px #888888; }
@@ -127,12 +128,16 @@ h2.contactTitle {
       padding-top: 10px;
       padding-bottom: 20px; }
     .rowBlog article span {
-      font-weight: bold; }
+      font-weight: bold;
+      font-family: "Josefin Sans", sans-serif;
+      font-size: 18px; }
     .rowBlog article p {
       text-align: left;
       padding: 5px;
       padding-top: 5px;
-      font-weight: none; }
+      font-weight: none;
+      font-family: "Josefin Sans", sans-serif;
+      font-size: 16px; }
 
 .adminLogin {
   width: 25%;
@@ -238,7 +243,8 @@ body {
   font-size: 1em;
   line-height: 1.38;
   text-align: center;
-  color: #ffffff; }
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif; }
 
 .info_bg {
   position: absolute;
@@ -261,7 +267,8 @@ p.location {
   font-weight: 400;
   line-height: 1.38;
   text-transform: uppercase;
-  color: white; }
+  color: white;
+  font-family: "Josefin Sans", sans-serif; }
 
 .temperature {
   position: absolute;
@@ -273,7 +280,9 @@ p.location {
   font-size: 4.25em;
   font-weight: 700;
   line-height: 1.38;
-  color: white; }
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center; }
 
 .windicon {
   display: block;
@@ -294,7 +303,8 @@ p.location {
   font-size: 1em;
   line-height: 1.38;
   text-align: center;
-  color: #ffffff; }
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif; }
 
 .windspeed p {
   margin-bottom: -.2em; }
@@ -784,12 +794,10 @@ img {
   background-color: #69D2E7;
   border: 5px solid #FE5301; }
   .footer ul.footerItems {
-    margin: 0 auto;
-    display: block; }
+    text-align: center; }
     .footer ul.footerItems li.footerNavList {
       display: inline-block;
-      text-align: center;
-      margin: 8px; }
+      margin-top: 38px; }
       .footer ul.footerItems li.footerNavList a {
         font-family: "Bungee Shade", cursive;
         font-size: 20px;
@@ -799,19 +807,106 @@ img {
         .footer ul.footerItems li.footerNavList a:hover {
           background-color: #767676;
           color: #ffffff;
-          box-shadow: 0px 0px 5px #ffffff; }
+          box-shadow: 0px 0px 5px #ffffff;
+          padding: 5px;
+          border-radius: 5px; }
   .footer ul.contactItems {
     margin: 0 auto; }
     .footer ul.contactItems li.contactList {
       text-align: center;
       margin: 5px;
-      font-size: 13px; }
+      font-size: 15px;
+      font-family: "Josefin Sans", sans-serif; }
+
+.navToggle {
+  z-index: 111;
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 100px;
+  cursor: pointer; }
+  .navToggle .icon {
+    -webkit-transition: all 0.4s ease-out;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 50px;
+    height: 2px;
+    background-color: #333; }
+    .navToggle .icon:before, .navToggle .icon:after {
+      -webkit-transition: all 0.25s ease-out;
+      position: absolute;
+      width: 50px;
+      height: 2px;
+      background-color: #333;
+      content: ''; }
+    .navToggle .icon:before {
+      top: -20px;
+      left: 0; }
+    .navToggle .icon:after {
+      top: 20px;
+      left: 0; }
+  .navToggle:hover .icon {
+    background-color: #555; }
+    .navToggle:hover .icon:before {
+      top: -25px;
+      background-color: #555; }
+    .navToggle:hover .icon:after {
+      top: 25px;
+      background-color: #555; }
+  .navToggle.open .icon {
+    -webkit-transition: all 0.4s ease-out;
+    background-color: transparent;
+    -webkit-transform: rotate(180deg); }
+    .navToggle.open .icon:before {
+      top: 0;
+      -webkit-transform: rotate(45deg); }
+    .navToggle.open .icon:after {
+      top: 0;
+      -webkit-transform: rotate(-45deg); }
+
+#menu {
+  z-index: 1;
+  left: 0;
+  right: 0;
+  top: 190px;
+  margin: 0 auto;
+  position: absolute;
+  width: 200px;
+  height: 0px;
+  overflow: hidden;
+  text-align: center;
+  border-bottom: 1px solid transparent;
+  -webkit-transition: all 0.5s; }
+  #menu ul {
+    list-style: none;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    text-transform: uppercase; }
+  #menu li:first-child {
+    margin-top: 0; }
+  #menu li {
+    margin: 30px 0;
+    padding: 5px 0;
+    cursor: pointer;
+    letter-spacing: 0.5em;
+    text-decoration: none;
+    -webkit-transition: all 0.25s; }
+  #menu li:hover {
+    text-decoration: underline; }
+  #menu.active {
+    height: 320px;
+    border-bottom: 1px solid black; }
 
 body {
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 15px;
-  background: url("http://i2.istockimg.com/file_thumbview_approve/22280947/5/stock-illustration-22280947-nautical-rope-seamless-pattern.jpg");
-  background-repeat: none; }
+  background: url("../images/boatBackground3.png"); }
 
 img.boatImgs {
   margin: 0 auto;
@@ -861,7 +956,8 @@ img.boatImgs {
     left: 0;
     top: 0;
     height: 400px;
-    width: 400px; }
+    width: 400px;
+    box-shadow: 10px 10px 5px #888888; }
   #circleslider3 .thumb {
     background: url(http://www.select-salmon.gr/userfiles/image/compass.png) no-repeat 50% 50%;
     position: absolute;
@@ -894,7 +990,7 @@ img.boatImgs {
 
 .blogBox article {
   background-color: #69D2E7;
-  width: 450px;
+  width: 497px;
   border-radius: 5px;
   margin: 0 auto;
   padding-left: 10px;
@@ -924,27 +1020,20 @@ img.boatImgs {
     font-family: "Josefin Sans", sans-serif;
     font-size: 16px; }
 
-.boatCos {
-  margin: 0 auto;
-  display: block; }
+img.coLogo {
+  width: 150px;
+  float: right;
+  margin-right: 6px; }
 
-ul.cosList {
-  margin: 0 auto;
-  display: block; }
-  ul.cosList li.boatCosList {
-    display: inline-block;
-    text-align: center;
-    padding: 20px;
-    margin-left: 4%; }
-    ul.cosList li.boatCosList img.coLogo {
-      width: 150px; }
+img.coLogo.sabre {
+  height: 45px;
+  width: 122px; }
 
 .twitterFeed {
-  margin-top: 85px;
-  padding-top: 25px; }
+  margin-top: 85px; }
 
 .twitterBox {
-  width: 400px;
+  width: 497px;
   background-color: #DCDCDC;
   border-radius: 5px;
   margin: 0 auto;
@@ -954,5 +1043,22 @@ ul.cosList {
   text-align: center;
   box-shadow: 10px 10px 5px #888888; }
 
+h4.weatherTempTitle {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 26px; }
+
 li.weatherImg img.weathericon {
-  width: 80px; }
+  width: 80px;
+  margin-left: 102px;
+  margin-top: 30px; }
+
+li.tempIcon {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 34px;
+  margin-left: 63px;
+  margin-top: 5px; }
+
+img {
+  width: 40px; }

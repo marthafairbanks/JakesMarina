@@ -14,19 +14,11 @@ $article-font:'Josefin Sans', sans-serif;;
 @import 'weather';
 @import 'standardize';
 @import 'headerFooter';
+@import 'mobile';
 
 body {
-		font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-		font-size: 15px;
-		background: url('http://i2.istockimg.com/file_thumbview_approve/22280947/5/stock-illustration-22280947-nautical-rope-seamless-pattern.jpg');
-		background-repeat: none;
+	background: url('../images/boatBackground3.png');
 	}
-
-.sliderCol{
-	//background-image: url('http://agrigrowth.org/wp-content/uploads/Wood-Wallpaper-95.jpg');
-	//background-color:rgba(253,112,68, .6)
-
-}
 
 img.boatImgs {
 	margin: 0 auto;
@@ -40,6 +32,7 @@ img.boatImgs {
 	width:500px;
 	display:block;
 	margin:0 auto;
+
 }
 
 #circleslider3 { 
@@ -50,6 +43,7 @@ img.boatImgs {
 	margin:0 auto;
 	display:block;
 	margin-top:60px;
+	
 
 	.viewport{ 
 		height:350px; 
@@ -86,6 +80,7 @@ img.boatImgs {
 				top: 0; 
 				height:400px; 
 				width:400px;
+				box-shadow: 10px 10px 5px #888888;
 			}
 
 				.thumb { 
@@ -111,7 +106,6 @@ img.boatImgs {
 						color: #555; 
 						width: 22px; 
 						position: absolute; 
-						
 						z-index: 100;
 						margin-left: -14px !important;
 						margin-top: -6px !important;
@@ -132,7 +126,7 @@ img.boatImgs {
 
 	article {
 		background-color: $light-blue;
-		width: 450px;
+		width: 497px;
 		border-radius: 5px;
 		margin: 0 auto;
 		padding-left: 10px;
@@ -172,31 +166,23 @@ img.boatImgs {
 	}
 }
 
-.boatCos {
-	margin:0 auto;
-	display:block;
+img.coLogo {
+	width:150px;
+	float:right;
+	margin-right:6px;
 }
-ul.cosList{
-	margin: 0 auto;
-	display: block;
 
-	li.boatCosList {
-		display:inline-block;
-		text-align:center;
-		padding:20px;
-		margin-left: 4%;
-		img.coLogo {
-			width:150px;			
-		}
+img.coLogo.sabre {
+		height:45px;
+		width:122px;
 	}
-}			
+			
 .twitterFeed {
 	margin-top:85px;
-	padding-top:25px;
 }
 
 .twitterBox {
-	width:400px;
+	width:497px;
 	background-color: $light-gray;
 	border-radius: 5px;
 	margin: 0 auto;
@@ -208,9 +194,33 @@ ul.cosList{
 
 }
 
+h4.weatherTempTitle {
+	font-family: $article-font;
+	font-size: 18px;
+	text-align:center;
+	margin-top:26px;
+}
+
+
 li.weatherImg {
+	
 	img.weathericon {
 	width:80px;
+	margin-left:102px;
+	margin-top:30px;
+
 }
 }
 
+li.tempIcon {
+	font-family: $article-font;
+	font-size:34px;
+	margin-left:63px;
+	margin-top:5px;
+}
+
+
+img {
+	width:40px;
+
+}

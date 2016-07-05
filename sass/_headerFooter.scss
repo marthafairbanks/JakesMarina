@@ -25,6 +25,7 @@ $light-blue: #69D2E7;
 		}
 	}
 	.navMiddle{
+
 		.logo{
 			width: 125px;
 			padding-top: 10px;
@@ -71,32 +72,36 @@ $light-blue: #69D2E7;
 	background-color: $light-blue;
 	border: 5px solid #FE5301;
 	ul.footerItems {
-		margin:0 auto;
-		display:block;
+		text-align:center;
 		li.footerNavList {
 			display:inline-block;
-			text-align:center;
-			margin:8px;
+			margin-top:38px;
 			a {
 				font-family: $nav-font;
 				font-size: 20px;
 				margin-right: 10px;
 				color:darken($light-gray,40);
 				text-decoration: none;
+				
 				&:hover {
 					background-color:darken($light-gray,40);
 					color:#ffffff;
 					box-shadow: 0px 0px 5px #ffffff; 
+					padding:5px;
+					border-radius:5px;
 				}
 			}
 		}
 	}	
 	ul.contactItems {
 		margin:0 auto;
+
 		li.contactList {
 			text-align:center;
 			margin:5px;
-			font-size: 13px;
+			font-size: 15px;
+			font-family: $article-font;
+
 		}
 	}
 }		

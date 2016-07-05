@@ -4,7 +4,7 @@ $light-orange:#FFC996;
 $light-gray:#DCDCDC;
 $green:#97FFD4;
 $light-blue: #69D2E7;
-$article-font:'Josefin Sans', sans-serif;;
+$article-font:'Josefin Sans', sans-serif;
 
 @import 'products';
 @import 'contact';
@@ -18,6 +18,7 @@ $article-font:'Josefin Sans', sans-serif;;
 
 body {
 	background: url('../images/boatBackground3.png');
+	font-family: $article-font;
 	}
 
 img.boatImgs {
@@ -212,13 +213,9 @@ li.tempIcon {
 img {
 	width:40px;
 }
-.socialMediaCos{
-	.socialLinks{
-		padding-left: 75px;
-	}
-}	
+	
 
 .boatCos {
 	border-top: 5px solid #FE5301;
 	padding-top: 35px;
-}
+	}

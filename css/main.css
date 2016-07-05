@@ -35,17 +35,40 @@
     width: 65%;
     margin: 0px auto;
     display: block; }
-  .cosRow .boatCos .info {
+  .cosRow .boatCos .bayliner .info {
     background-color: #69D2E7;
-    margin-top: -200px;
+    margin-top: -175px;
     padding: 20px;
     display: none;
     border: 2px solid #FE5301; }
-    .cosRow .boatCos .info p {
-      font-size: 14px; }
-  .cosRow .boatCos img:hover + div {
-    display: block;
-    cursor: pointer; }
+  .cosRow .boatCos .bayliner img:hover + div {
+    display: block; }
+  .cosRow .boatCos .stingray .info {
+    background-color: #69D2E7;
+    margin-top: -210px;
+    padding: 20px;
+    display: none;
+    border: 2px solid #FE5301; }
+  .cosRow .boatCos .stingray img:hover + div {
+    display: block; }
+  .cosRow .boatCos .searay .info {
+    background-color: #69D2E7;
+    margin-top: -185px;
+    padding: 20px;
+    display: none;
+    border: 2px solid #FE5301; }
+  .cosRow .boatCos .searay img:hover + div {
+    display: block; }
+  .cosRow .boatCos .sabre .info {
+    background-color: #69D2E7;
+    margin-top: -225px;
+    padding: 20px;
+    display: none;
+    border: 2px solid #FE5301; }
+    .cosRow .boatCos .sabre .info img {
+      height: 40px; }
+  .cosRow .boatCos .sabre img:hover + div {
+    display: block; }
 
 .rowContact {
   background-color: white;
@@ -905,7 +928,8 @@ img {
     border-bottom: 1px solid black; }
 
 body {
-  background: url("../images/boatBackground3.png"); }
+  background: url("../images/boatBackground3.png");
+  font-family: "Josefin Sans", sans-serif; }
 
 img.boatImgs {
   margin: 0 auto;
@@ -1052,9 +1076,6 @@ li.tempIcon {
 
 img {
   width: 40px; }
-
-.socialMediaCos .socialLinks {
-  padding-left: 75px; }
 
 .boatCos {
   border-top: 5px solid #FE5301;
